@@ -1,0 +1,1368 @@
+2024-11-11 19:48:42,355 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 19:48:42,357 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-11 19:48:42,357 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\alfa\\PycharmProjects\\sytdl\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-11 19:48:42,364 - httpcore.connection - DEBUG - connect_tcp.started host='www.youtube.com' port=443 local_address=None timeout=None socket_options=None
+2024-11-11 19:48:42,389 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002698F45FB50>
+2024-11-11 19:48:42,389 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002698F440EF0> server_hostname='www.youtube.com' timeout=None
+2024-11-11 19:48:42,443 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002698F45FA90>
+2024-11-11 19:48:42,443 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-11 19:48:42,443 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-11-11 19:48:42,443 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-11 19:48:42,443 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-11-11 19:48:42,443 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-11 19:48:43,054 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Mon, 11 Nov 2024 16:48:43 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'Cache-Control', b'private'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-11-11 19:48:43,055 - httpx - INFO - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+2024-11-11 19:48:43,055 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-11 19:48:43,091 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-11-11 19:48:43,091 - httpcore.http11 - DEBUG - response_closed.started
+2024-11-11 19:48:43,091 - httpcore.http11 - DEBUG - response_closed.complete
+2024-11-11 19:48:43,092 - httpcore.connection - DEBUG - close.started
+2024-11-11 19:48:43,092 - httpcore.connection - DEBUG - close.complete
+2024-11-11 19:48:43,115 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,115 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,116 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,116 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,117 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,117 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,119 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,120 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,121 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,122 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,124 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,125 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,126 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,127 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,128 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,129 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,130 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,131 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,132 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:48:43,200 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/_R3B2Xr8kwQ/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhdIF0oXTAP&rs=AOn4CLAJy7xS8lGowHeSB3KYgKhpO3xaIg HTTP/11" 200 11914
+2024-11-11 19:48:43,201 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/MeRIAew8eXc/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARheIF4oXjAP&rs=AOn4CLD0BUXpmjtDhTeIreM-9fw7gDjczg HTTP/11" 200 12670
+2024-11-11 19:48:43,201 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/lPeJMoms_Ag/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIGEoQzAP&rs=AOn4CLDc07ZHQ55nGgQDavisWx2IxImYcg HTTP/11" 200 12510
+2024-11-11 19:48:43,207 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/pQsF3pzOc54/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDCiK10RIHqFs3WVAyQfeJjBBxOSg HTTP/11" 200 6168
+2024-11-11 19:48:43,208 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/qBoQzo98EpQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmyO2lm2j5dlIzpDWYwfxaPxerXA HTTP/11" 200 3944
+2024-11-11 19:48:43,209 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/vpp1HXpDdIM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXDSbfB0J7Q4ehoVAOQ18edUcEyg HTTP/11" 200 8144
+2024-11-11 19:48:43,211 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/-vyvNJAevIA/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB3AiAAtAFigIMCAAQARhVIE0oZTAP&rs=AOn4CLDuFkwVf6ZogiDWsp9DDhfWcckdyQ HTTP/11" 200 15292
+2024-11-11 19:48:43,211 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Z1zPvvh3KxU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAiOB9Pj_ATjo3-qCr0OtCCfS4Y0g HTTP/11" 200 17606
+2024-11-11 19:48:43,211 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/wIuBcb2T55Q/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IEooJTAP&rs=AOn4CLDXN6l0HrleiDqRAB6gxnPSnv6MAQ HTTP/11" 200 18626
+2024-11-11 19:48:43,211 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/HceMOGoGZWI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBnYbbTHe7S2HvzwYj2hnDc00EdOg HTTP/11" 200 10590
+2024-11-11 19:48:43,217 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/_p7K2pnmy00/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFAoUTAP&rs=AOn4CLBh_UxRog8gaiR6OwjYBI0bsC2fWg HTTP/11" 200 11136
+2024-11-11 19:48:43,221 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/AD8IVVV7ERo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBYzBkMzc6y2bW6rEHvWAwmdLO10A HTTP/11" 200 13546
+2024-11-11 19:48:43,221 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/r4ThHPMhmXQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPv4ji9Otc18v3q1LtRzSRSaPFww HTTP/11" 200 5214
+2024-11-11 19:48:43,221 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/cZCm_i6YvAk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACqJuOJouJcrlME15kP2Dx0fmNag HTTP/11" 200 17606
+2024-11-11 19:48:43,226 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/csJZ_9KOtNY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA57ts1QDgNHmVkccgpy3eujxnJ1w HTTP/11" 200 6168
+2024-11-11 19:48:43,228 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/wizAwUwdWsY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDImug02_NCMvPc5CFHk0EvYTU-XQ HTTP/11" 200 15160
+2024-11-11 19:48:43,233 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/LCjQsB0sDW8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD-dLi6nHSRQThBZkih0n3gdFlXqw HTTP/11" 200 17900
+2024-11-11 19:48:43,241 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/1VYbKamjB-4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCOP4bkP_Z6Pw-_YnLw16CeaBND3g HTTP/11" 200 17606
+2024-11-11 19:48:43,266 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/gbg27oT8Z9M/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhAIFkocjAP&rs=AOn4CLDaCfO1BIszK1a9Jd_D98zMebfNCA HTTP/11" 200 18348
+2024-11-11 19:48:45,644 - SmartQueue - INFO - Added new download: Chamber Of Reflection
+2024-11-11 19:50:15,579 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 19:50:15,580 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-11 19:50:15,581 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\alfa\\PycharmProjects\\sytdl\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-11 19:50:15,587 - httpcore.connection - DEBUG - connect_tcp.started host='www.youtube.com' port=443 local_address=None timeout=None socket_options=None
+2024-11-11 19:50:15,612 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002AF7850FC90>
+2024-11-11 19:50:15,612 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002AF784F0F80> server_hostname='www.youtube.com' timeout=None
+2024-11-11 19:50:15,668 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002AF7850FBD0>
+2024-11-11 19:50:15,668 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-11 19:50:15,668 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-11-11 19:50:15,668 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-11 19:50:15,668 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-11-11 19:50:15,668 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-11 19:50:16,227 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Mon, 11 Nov 2024 16:50:16 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'Cache-Control', b'private'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-11-11 19:50:16,228 - httpx - INFO - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+2024-11-11 19:50:16,228 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-11 19:50:16,267 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-11-11 19:50:16,267 - httpcore.http11 - DEBUG - response_closed.started
+2024-11-11 19:50:16,267 - httpcore.http11 - DEBUG - response_closed.complete
+2024-11-11 19:50:16,268 - httpcore.connection - DEBUG - close.started
+2024-11-11 19:50:16,268 - httpcore.connection - DEBUG - close.complete
+2024-11-11 19:50:16,290 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,292 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,292 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,292 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,293 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,293 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,295 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,296 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,297 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,298 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,299 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,300 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,301 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,302 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,303 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,304 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,305 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,307 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,308 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:50:16,364 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/_R3B2Xr8kwQ/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhdIF0oXTAP&rs=AOn4CLAJy7xS8lGowHeSB3KYgKhpO3xaIg HTTP/11" 200 11914
+2024-11-11 19:50:16,366 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/MeRIAew8eXc/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARheIF4oXjAP&rs=AOn4CLD0BUXpmjtDhTeIreM-9fw7gDjczg HTTP/11" 200 12670
+2024-11-11 19:50:16,370 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/1VYbKamjB-4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCOP4bkP_Z6Pw-_YnLw16CeaBND3g HTTP/11" 200 17606
+2024-11-11 19:50:16,370 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/cZCm_i6YvAk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACqJuOJouJcrlME15kP2Dx0fmNag HTTP/11" 200 17606
+2024-11-11 19:50:16,374 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/-vyvNJAevIA/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB3AiAAtAFigIMCAAQARhVIE0oZTAP&rs=AOn4CLDuFkwVf6ZogiDWsp9DDhfWcckdyQ HTTP/11" 200 15292
+2024-11-11 19:50:16,375 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/wIuBcb2T55Q/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IEooJTAP&rs=AOn4CLDXN6l0HrleiDqRAB6gxnPSnv6MAQ HTTP/11" 200 18626
+2024-11-11 19:50:16,382 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/qBoQzo98EpQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmyO2lm2j5dlIzpDWYwfxaPxerXA HTTP/11" 200 3944
+2024-11-11 19:50:16,382 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/LCjQsB0sDW8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD-dLi6nHSRQThBZkih0n3gdFlXqw HTTP/11" 200 17900
+2024-11-11 19:50:16,383 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/gbg27oT8Z9M/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhAIFkocjAP&rs=AOn4CLDaCfO1BIszK1a9Jd_D98zMebfNCA HTTP/11" 200 18348
+2024-11-11 19:50:16,384 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/lPeJMoms_Ag/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIGEoQzAP&rs=AOn4CLDc07ZHQ55nGgQDavisWx2IxImYcg HTTP/11" 200 12510
+2024-11-11 19:50:16,385 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/pQsF3pzOc54/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDCiK10RIHqFs3WVAyQfeJjBBxOSg HTTP/11" 200 6168
+2024-11-11 19:50:16,392 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/_p7K2pnmy00/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFAoUTAP&rs=AOn4CLBh_UxRog8gaiR6OwjYBI0bsC2fWg HTTP/11" 200 11136
+2024-11-11 19:50:16,393 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Z1zPvvh3KxU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAiOB9Pj_ATjo3-qCr0OtCCfS4Y0g HTTP/11" 200 17606
+2024-11-11 19:50:16,394 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/AD8IVVV7ERo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBYzBkMzc6y2bW6rEHvWAwmdLO10A HTTP/11" 200 13546
+2024-11-11 19:50:16,395 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/HceMOGoGZWI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBnYbbTHe7S2HvzwYj2hnDc00EdOg HTTP/11" 200 10590
+2024-11-11 19:50:16,399 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/r4ThHPMhmXQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPv4ji9Otc18v3q1LtRzSRSaPFww HTTP/11" 200 5214
+2024-11-11 19:50:16,409 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/csJZ_9KOtNY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA57ts1QDgNHmVkccgpy3eujxnJ1w HTTP/11" 200 6168
+2024-11-11 19:50:16,409 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/vpp1HXpDdIM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXDSbfB0J7Q4ehoVAOQ18edUcEyg HTTP/11" 200 8144
+2024-11-11 19:50:16,420 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/wizAwUwdWsY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDImug02_NCMvPc5CFHk0EvYTU-XQ HTTP/11" 200 15160
+2024-11-11 19:50:17,289 - SmartQueue - INFO - Added new download: Chamber Of Reflection
+2024-11-11 19:50:17,290 - root - ERROR - Error handling queue event: 'DownloadItemWidget' object has no attribute 'update_status'
+2024-11-11 19:50:17,291 - SmartQueue - ERROR - Failed to start download: 'NoneType' object has no attribute 'download_manager'
+2024-11-11 19:51:23,499 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 19:51:23,501 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-11 19:51:23,501 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\alfa\\PycharmProjects\\sytdl\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-11 19:51:23,512 - httpcore.connection - DEBUG - connect_tcp.started host='www.youtube.com' port=443 local_address=None timeout=None socket_options=None
+2024-11-11 19:51:23,532 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002BCE6D4F4D0>
+2024-11-11 19:51:23,532 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002BCE6D30EF0> server_hostname='www.youtube.com' timeout=None
+2024-11-11 19:51:23,587 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002BCE6D4F410>
+2024-11-11 19:51:23,587 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-11 19:51:23,587 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-11-11 19:51:23,587 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-11 19:51:23,587 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-11-11 19:51:23,587 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-11 19:51:24,161 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Mon, 11 Nov 2024 16:51:24 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'Cache-Control', b'private'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-11-11 19:51:24,162 - httpx - INFO - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+2024-11-11 19:51:24,162 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-11 19:51:24,195 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-11-11 19:51:24,195 - httpcore.http11 - DEBUG - response_closed.started
+2024-11-11 19:51:24,195 - httpcore.http11 - DEBUG - response_closed.complete
+2024-11-11 19:51:24,196 - httpcore.connection - DEBUG - close.started
+2024-11-11 19:51:24,196 - httpcore.connection - DEBUG - close.complete
+2024-11-11 19:51:24,217 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,218 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,219 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,219 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,220 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,221 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,222 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,223 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,224 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,226 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,227 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,228 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,229 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,230 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,231 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,232 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,233 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,235 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,237 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:51:24,314 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/cZCm_i6YvAk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACqJuOJouJcrlME15kP2Dx0fmNag HTTP/11" 200 17606
+2024-11-11 19:51:24,318 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/_R3B2Xr8kwQ/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhdIF0oXTAP&rs=AOn4CLAJy7xS8lGowHeSB3KYgKhpO3xaIg HTTP/11" 200 11914
+2024-11-11 19:51:24,326 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/-vyvNJAevIA/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB3AiAAtAFigIMCAAQARhVIE0oZTAP&rs=AOn4CLDuFkwVf6ZogiDWsp9DDhfWcckdyQ HTTP/11" 200 15292
+2024-11-11 19:51:24,326 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/1VYbKamjB-4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCOP4bkP_Z6Pw-_YnLw16CeaBND3g HTTP/11" 200 17606
+2024-11-11 19:51:24,327 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/LCjQsB0sDW8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD-dLi6nHSRQThBZkih0n3gdFlXqw HTTP/11" 200 17900
+2024-11-11 19:51:24,340 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/MeRIAew8eXc/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARheIF4oXjAP&rs=AOn4CLD0BUXpmjtDhTeIreM-9fw7gDjczg HTTP/11" 200 12670
+2024-11-11 19:51:24,340 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/pQsF3pzOc54/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDCiK10RIHqFs3WVAyQfeJjBBxOSg HTTP/11" 200 6168
+2024-11-11 19:51:24,342 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/lPeJMoms_Ag/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIGEoQzAP&rs=AOn4CLDc07ZHQ55nGgQDavisWx2IxImYcg HTTP/11" 200 12510
+2024-11-11 19:51:24,351 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/qBoQzo98EpQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmyO2lm2j5dlIzpDWYwfxaPxerXA HTTP/11" 200 3944
+2024-11-11 19:51:24,360 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/vpp1HXpDdIM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXDSbfB0J7Q4ehoVAOQ18edUcEyg HTTP/11" 200 8144
+2024-11-11 19:51:24,365 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/r4ThHPMhmXQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPv4ji9Otc18v3q1LtRzSRSaPFww HTTP/11" 200 5214
+2024-11-11 19:51:24,366 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/AD8IVVV7ERo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBYzBkMzc6y2bW6rEHvWAwmdLO10A HTTP/11" 200 13546
+2024-11-11 19:51:24,368 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/_p7K2pnmy00/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFAoUTAP&rs=AOn4CLBh_UxRog8gaiR6OwjYBI0bsC2fWg HTTP/11" 200 11136
+2024-11-11 19:51:24,368 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Z1zPvvh3KxU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAiOB9Pj_ATjo3-qCr0OtCCfS4Y0g HTTP/11" 200 17606
+2024-11-11 19:51:24,382 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/wizAwUwdWsY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDImug02_NCMvPc5CFHk0EvYTU-XQ HTTP/11" 200 15160
+2024-11-11 19:51:24,383 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/gbg27oT8Z9M/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhAIFkocjAP&rs=AOn4CLDaCfO1BIszK1a9Jd_D98zMebfNCA HTTP/11" 200 18348
+2024-11-11 19:51:24,384 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/HceMOGoGZWI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBnYbbTHe7S2HvzwYj2hnDc00EdOg HTTP/11" 200 10590
+2024-11-11 19:51:24,387 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/wIuBcb2T55Q/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IEooJTAP&rs=AOn4CLDXN6l0HrleiDqRAB6gxnPSnv6MAQ HTTP/11" 200 18626
+2024-11-11 19:51:24,395 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/csJZ_9KOtNY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA57ts1QDgNHmVkccgpy3eujxnJ1w HTTP/11" 200 6168
+2024-11-11 19:51:25,375 - SmartQueue - INFO - Added new download: Chamber Of Reflection
+2024-11-11 19:51:25,376 - root - ERROR - Error handling queue event: 'DownloadItemWidget' object has no attribute 'update_status'
+2024-11-11 19:51:25,376 - SmartQueue - ERROR - Failed to start download: 'NoneType' object has no attribute 'download_manager'
+2024-11-11 19:52:41,859 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 19:52:41,861 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-11 19:52:41,862 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\alfa\\PycharmProjects\\sytdl\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-11 19:52:41,873 - httpcore.connection - DEBUG - connect_tcp.started host='www.youtube.com' port=443 local_address=None timeout=None socket_options=None
+2024-11-11 19:52:41,897 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018C7269FB10>
+2024-11-11 19:52:41,897 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000018C72685010> server_hostname='www.youtube.com' timeout=None
+2024-11-11 19:52:41,950 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018C7269FA50>
+2024-11-11 19:52:41,950 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-11 19:52:41,950 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-11-11 19:52:41,950 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-11 19:52:41,950 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-11-11 19:52:41,950 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-11 19:52:42,482 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Mon, 11 Nov 2024 16:52:43 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'Cache-Control', b'private'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-11-11 19:52:42,482 - httpx - INFO - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+2024-11-11 19:52:42,482 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-11 19:52:42,519 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-11-11 19:52:42,519 - httpcore.http11 - DEBUG - response_closed.started
+2024-11-11 19:52:42,519 - httpcore.http11 - DEBUG - response_closed.complete
+2024-11-11 19:52:42,519 - httpcore.connection - DEBUG - close.started
+2024-11-11 19:52:42,519 - httpcore.connection - DEBUG - close.complete
+2024-11-11 19:52:42,540 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,541 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,542 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,542 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,543 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,543 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,546 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,546 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,548 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,548 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,550 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,550 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,551 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,552 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,553 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,554 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,555 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,556 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,557 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:52:42,614 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/pQsF3pzOc54/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDCiK10RIHqFs3WVAyQfeJjBBxOSg HTTP/11" 200 6168
+2024-11-11 19:52:42,618 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/MeRIAew8eXc/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARheIF4oXjAP&rs=AOn4CLD0BUXpmjtDhTeIreM-9fw7gDjczg HTTP/11" 200 12670
+2024-11-11 19:52:42,622 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/LCjQsB0sDW8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD-dLi6nHSRQThBZkih0n3gdFlXqw HTTP/11" 200 17900
+2024-11-11 19:52:42,625 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/qBoQzo98EpQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmyO2lm2j5dlIzpDWYwfxaPxerXA HTTP/11" 200 3944
+2024-11-11 19:52:42,632 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/lPeJMoms_Ag/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIGEoQzAP&rs=AOn4CLDc07ZHQ55nGgQDavisWx2IxImYcg HTTP/11" 200 12510
+2024-11-11 19:52:42,632 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/1VYbKamjB-4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCOP4bkP_Z6Pw-_YnLw16CeaBND3g HTTP/11" 200 17606
+2024-11-11 19:52:42,633 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/_R3B2Xr8kwQ/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhdIF0oXTAP&rs=AOn4CLAJy7xS8lGowHeSB3KYgKhpO3xaIg HTTP/11" 200 11914
+2024-11-11 19:52:42,635 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/-vyvNJAevIA/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB3AiAAtAFigIMCAAQARhVIE0oZTAP&rs=AOn4CLDuFkwVf6ZogiDWsp9DDhfWcckdyQ HTTP/11" 200 15292
+2024-11-11 19:52:42,636 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/cZCm_i6YvAk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACqJuOJouJcrlME15kP2Dx0fmNag HTTP/11" 200 17606
+2024-11-11 19:52:42,641 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/gbg27oT8Z9M/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhAIFkocjAP&rs=AOn4CLDaCfO1BIszK1a9Jd_D98zMebfNCA HTTP/11" 200 18348
+2024-11-11 19:52:42,642 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/csJZ_9KOtNY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA57ts1QDgNHmVkccgpy3eujxnJ1w HTTP/11" 200 6168
+2024-11-11 19:52:42,643 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/vpp1HXpDdIM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXDSbfB0J7Q4ehoVAOQ18edUcEyg HTTP/11" 200 8144
+2024-11-11 19:52:42,645 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/r4ThHPMhmXQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPv4ji9Otc18v3q1LtRzSRSaPFww HTTP/11" 200 5214
+2024-11-11 19:52:42,650 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/wIuBcb2T55Q/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IEooJTAP&rs=AOn4CLDXN6l0HrleiDqRAB6gxnPSnv6MAQ HTTP/11" 200 18626
+2024-11-11 19:52:42,651 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/HceMOGoGZWI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBnYbbTHe7S2HvzwYj2hnDc00EdOg HTTP/11" 200 10590
+2024-11-11 19:52:42,651 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Z1zPvvh3KxU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAiOB9Pj_ATjo3-qCr0OtCCfS4Y0g HTTP/11" 200 17606
+2024-11-11 19:52:42,666 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/_p7K2pnmy00/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFAoUTAP&rs=AOn4CLBh_UxRog8gaiR6OwjYBI0bsC2fWg HTTP/11" 200 11136
+2024-11-11 19:52:42,670 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/AD8IVVV7ERo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBYzBkMzc6y2bW6rEHvWAwmdLO10A HTTP/11" 200 13546
+2024-11-11 19:52:42,677 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/wizAwUwdWsY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDImug02_NCMvPc5CFHk0EvYTU-XQ HTTP/11" 200 15160
+2024-11-11 19:52:43,405 - SmartQueue - INFO - Added new download: Chamber Of Reflection
+2024-11-11 19:53:52,915 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 19:53:52,917 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-11 19:53:52,917 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\alfa\\PycharmProjects\\sytdl\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-11 19:53:52,924 - httpcore.connection - DEBUG - connect_tcp.started host='www.youtube.com' port=443 local_address=None timeout=None socket_options=None
+2024-11-11 19:53:52,952 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000022B23BC3E50>
+2024-11-11 19:53:52,952 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000022B23BA50A0> server_hostname='www.youtube.com' timeout=None
+2024-11-11 19:53:53,001 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000022B23BC3D90>
+2024-11-11 19:53:53,001 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-11 19:53:53,001 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-11-11 19:53:53,001 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-11 19:53:53,001 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-11-11 19:53:53,001 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-11 19:53:53,460 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Mon, 11 Nov 2024 16:53:53 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'Cache-Control', b'private'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-11-11 19:53:53,461 - httpx - INFO - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+2024-11-11 19:53:53,461 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-11 19:53:53,499 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-11-11 19:53:53,499 - httpcore.http11 - DEBUG - response_closed.started
+2024-11-11 19:53:53,499 - httpcore.http11 - DEBUG - response_closed.complete
+2024-11-11 19:53:53,500 - httpcore.connection - DEBUG - close.started
+2024-11-11 19:53:53,500 - httpcore.connection - DEBUG - close.complete
+2024-11-11 19:53:53,523 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,523 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,524 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,524 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,525 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,526 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,527 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,527 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,528 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,530 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,531 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,532 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,533 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,534 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,535 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,536 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,537 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,538 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,539 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:53:53,628 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/dtVQkUZWYtI/hq720.jpg?sqp=-oaymwE2COgCEMoBSFbyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgTIE8ofzAP&rs=AOn4CLDw6HyrUEBmq1zcPP1dckVc1FjbnQ HTTP/11" 200 12786
+2024-11-11 19:53:53,659 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/OR51OyjmxUU/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA1LWnwJsBdYFouZ7BOqoNTamp3tg HTTP/11" 200 27088
+2024-11-11 19:53:53,666 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/EcrK6JRkuxs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAI05zjCN4K-pPBJyTdBJNPRk7bkA HTTP/11" 200 11916
+2024-11-11 19:53:53,672 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/04o00DJ3Y5w/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAbgmeU4XzwuUMuTlwlfQ3RjGyFHA HTTP/11" 200 11458
+2024-11-11 19:53:53,675 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/-XqFjEXeiYE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCrGcqinZ_vdJstJ3R_wPljowO8qg HTTP/11" 200 10716
+2024-11-11 19:53:53,678 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/QZuQvyNZWkY/hq720.jpg?sqp=-oaymwE2COgCEMoBSFbyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFEoQTAP&rs=AOn4CLBJvSY3uAplUGE-CT2Vq8hqf7db2Q HTTP/11" 200 6236
+2024-11-11 19:53:53,679 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/3cT_xTrwktY/hq720.jpg?sqp=-oaymwE2COgCEMoBSFbyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhDIFUocjAP&rs=AOn4CLA0r3xOgNJVB-vrilf3L-e89W8PJA HTTP/11" 200 8288
+2024-11-11 19:53:53,686 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/u8Ub6triQPE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCUksQnv1b4LOsmRzbJvqOJKcjkiA HTTP/11" 200 15280
+2024-11-11 19:53:53,688 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/RLqo708UjTw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTVRSzMz4dy2DgW3wjrq0HQsX65Q HTTP/11" 200 13444
+2024-11-11 19:53:53,692 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/QDEkkCTTr-U/hq720.jpg?sqp=-oaymwE2COgCEMoBSFbyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhUIFgoZTAP&rs=AOn4CLCiG2QWVbgIq88LSdHikAflmrALvw HTTP/11" 200 5860
+2024-11-11 19:53:53,693 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/5HgqPpjIH5c/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrD51ZEjhnwe_RIG9QvvFqUUGvjA HTTP/11" 200 11832
+2024-11-11 19:53:53,694 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Bjvx14sJb0g/hq720.jpg?sqp=-oaymwE2COgCEMoBSFbyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IDkoLjAP&rs=AOn4CLBpDIprVJ0mq1X65Q68DAksOYV4og HTTP/11" 200 14090
+2024-11-11 19:53:53,697 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/AiRd4E5SwmE/hq720.jpg?sqp=-oaymwE2COgCEMoBSFbyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IB0oLDAP&rs=AOn4CLDRaZqeODBqqRUg_T-Q8mk-Vd0c5g HTTP/11" 200 12066
+2024-11-11 19:53:53,698 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/6jgBcsRCqI8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCGjqmvR1wOiWPkcfAtJx4PigMNbw HTTP/11" 200 12792
+2024-11-11 19:53:53,701 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/CJkGGslFneE/hq720.jpg?sqp=-oaymwE2COgCEMoBSFbyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhXIF0oZTAP&rs=AOn4CLCaMCdGl_jr45XCYbc8TTeUxPQiZg HTTP/11" 200 9812
+2024-11-11 19:53:53,702 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/C84TtIU96Ek/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2wWLF5B1GfCjVE61-hA3921hMxQ HTTP/11" 200 15280
+2024-11-11 19:53:53,703 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/vFpRHw6lxUs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7rPMPXYGFZ4DqT07L3YBH8e44_Q HTTP/11" 200 12700
+2024-11-11 19:53:53,706 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/U9xnypUxgQk/hq720.jpg?sqp=-oaymwE2COgCEMoBSFbyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIEAoSDAP&rs=AOn4CLCw5UZ-7vKyZRt43esfMLCcG2TaPA HTTP/11" 200 11192
+2024-11-11 19:53:53,751 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/lhsq2BnfGuo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD5IHQrp-cCf3nT9jJP3luZrO4WEQ HTTP/11" 200 16916
+2024-11-11 19:53:54,723 - SmartQueue - INFO - Added new download: berlioz - deep in it
+2024-11-11 19:53:54,725 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 19:53:55,077 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 19:53:55,189 - pytubefix.streams - DEBUG - downloading (9504422 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[35B78D] berlioz - deep in it\video_360p.mp4
+2024-11-11 19:53:55,763 - pytubefix.streams - DEBUG - download remaining: 67238
+2024-11-11 19:53:55,788 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 19:53:55,788 - pytubefix.streams - DEBUG - download finished
+2024-11-11 19:53:55,789 - SmartQueue - INFO - Download completed: berlioz - deep in it
+2024-11-11 19:56:33,898 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 19:56:33,900 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-11 19:56:33,900 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\alfa\\PycharmProjects\\sytdl\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-11 19:56:33,907 - httpcore.connection - DEBUG - connect_tcp.started host='www.youtube.com' port=443 local_address=None timeout=None socket_options=None
+2024-11-11 19:56:33,927 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020FAD37AC10>
+2024-11-11 19:56:33,927 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020FAD35CF80> server_hostname='www.youtube.com' timeout=None
+2024-11-11 19:56:33,976 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020FAD37BF90>
+2024-11-11 19:56:33,976 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-11 19:56:33,977 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-11-11 19:56:33,977 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-11 19:56:33,977 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-11-11 19:56:33,977 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-11 19:56:34,471 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Mon, 11 Nov 2024 16:56:35 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'Cache-Control', b'private'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-11-11 19:56:34,471 - httpx - INFO - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+2024-11-11 19:56:34,472 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-11 19:56:34,493 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-11-11 19:56:34,494 - httpcore.http11 - DEBUG - response_closed.started
+2024-11-11 19:56:34,494 - httpcore.http11 - DEBUG - response_closed.complete
+2024-11-11 19:56:34,494 - httpcore.connection - DEBUG - close.started
+2024-11-11 19:56:34,494 - httpcore.connection - DEBUG - close.complete
+2024-11-11 19:56:34,521 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,521 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,521 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,522 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,522 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,524 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,526 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,526 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,527 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,529 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,530 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,531 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,532 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,533 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,534 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,535 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,536 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,537 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,538 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:56:34,598 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/SLrkE6T_m5Y/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEsoOTAP&rs=AOn4CLAMd6f9Tk-3gzlj1rUO_paYPN0ZJQ HTTP/11" 200 14130
+2024-11-11 19:56:34,605 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/yAKX51r7erw/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgvIDQofzAP&rs=AOn4CLBspcOi6eE_sFcLYVHspokMe-hKZw HTTP/11" 200 4526
+2024-11-11 19:56:34,609 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/JBfAtRvW1Ao/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBYVmTFdt0_qJslbrPIZpyFcBJ8Og HTTP/11" 200 11216
+2024-11-11 19:56:34,611 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/EVC8r2b5mnI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7H8JogESdyGCAIz2N_KJP37jBkw HTTP/11" 200 3274
+2024-11-11 19:56:34,614 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/MnMTK8EdsOc/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBjgSAApADigIMCAAQARhyIE4oPDAP&rs=AOn4CLBo3-l0ZPUwpYn1zhABKGwsypBu3g HTTP/11" 200 15676
+2024-11-11 19:56:34,627 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/4qQyUi4zfDs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtDNRjbnLMwrtDFGsZ5DO5gKMkVQ HTTP/11" 200 9548
+2024-11-11 19:56:34,644 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/65tTDlQ0l6o/2.jpg HTTP/11" 200 2246
+2024-11-11 19:56:34,652 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/2XTLhm6EcFw/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhyIEYoXDAP&rs=AOn4CLCWHto1J24_VKYcWS2EXpgjhEbb3w HTTP/11" 200 18026
+2024-11-11 19:56:34,654 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/n_V4zjCjkAY/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBOyThM3qRaoexQ4MEmFmwVaIOFCA HTTP/11" 200 9350
+2024-11-11 19:56:34,657 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/C3LK5ELvZwI/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBigSAAogDigIMCAAQARgXIBMofzAP&rs=AOn4CLAb8AkWRmtrHlCQLl2RMUWWywkJ-Q HTTP/11" 200 14412
+2024-11-11 19:56:34,657 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/IFZmVasIg_4/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCHfsqJN-C26SwZUt-tzBCS8rpxpw HTTP/11" 200 10912
+2024-11-11 19:56:34,657 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/g2lhOPjLEfk/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBn8FvnrBCeeQxi3ruWXGgkjy_gnw HTTP/11" 200 23854
+2024-11-11 19:56:34,659 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/ecFQYonN0DE/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARg5IGIocjAP&rs=AOn4CLAnP02yosysfUut-YWzJGAmb5DvrA HTTP/11" 200 4174
+2024-11-11 19:56:34,662 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/NVuRbwnav_Y/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgKAAvABigIMCAAQARhiIGIoYjAP&rs=AOn4CLBC3eHm5Swo2Abz_D_44Qoc_8ykEg HTTP/11" 200 2600
+2024-11-11 19:56:34,663 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/zw_QvTtf2LI/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhgICwofzAP&rs=AOn4CLDhOfvbVjlZnjdjhc3Gt03T1mdkSA HTTP/11" 200 12824
+2024-11-11 19:56:34,665 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/6ylDDs3mdJE/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgTIGAofzAP&rs=AOn4CLApK2bGoDLVIdVLKAVY5iw0TIShhw HTTP/11" 200 12078
+2024-11-11 19:56:34,668 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Ubao8M7Rjvk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAncBmY5Io_m1drprOTTC-G-BlA1w HTTP/11" 200 14510
+2024-11-11 19:56:34,672 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/xqE6k3dwIpg/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARgyIBMofzAP&rs=AOn4CLD5jE-EvTq5SknQvf6wL6UaLV2Xqw HTTP/11" 200 9418
+2024-11-11 19:56:34,697 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/I3PKikmU-Mk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBchXZUkDOdQv7YrBea7OjVs2xBrQ HTTP/11" 200 17570
+2024-11-11 19:56:36,511 - SmartQueue - INFO - Added new download: Portishead - Glory Box
+2024-11-11 19:56:36,513 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 19:56:36,832 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 19:56:36,949 - pytubefix.streams - DEBUG - downloading (8000515 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[01B29B] Portishead - Glory Box\video_360p.mp4
+2024-11-11 19:56:37,391 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 19:56:37,392 - pytubefix.streams - DEBUG - download finished
+2024-11-11 19:56:37,393 - SmartQueue - INFO - Download completed: Portishead - Glory Box
+2024-11-11 19:59:15,586 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 19:59:15,588 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-11 19:59:15,589 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\alfa\\PycharmProjects\\sytdl\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-11 19:59:15,600 - httpcore.connection - DEBUG - connect_tcp.started host='www.youtube.com' port=443 local_address=None timeout=None socket_options=None
+2024-11-11 19:59:15,627 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000259983C7E10>
+2024-11-11 19:59:15,627 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000259983A8F80> server_hostname='www.youtube.com' timeout=None
+2024-11-11 19:59:15,677 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000259983C7D50>
+2024-11-11 19:59:15,677 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-11 19:59:15,677 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-11-11 19:59:15,677 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-11 19:59:15,677 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-11-11 19:59:15,677 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-11 19:59:16,258 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Mon, 11 Nov 2024 16:59:16 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'Cache-Control', b'private'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-11-11 19:59:16,259 - httpx - INFO - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+2024-11-11 19:59:16,259 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-11 19:59:16,280 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-11-11 19:59:16,280 - httpcore.http11 - DEBUG - response_closed.started
+2024-11-11 19:59:16,280 - httpcore.http11 - DEBUG - response_closed.complete
+2024-11-11 19:59:16,281 - httpcore.connection - DEBUG - close.started
+2024-11-11 19:59:16,281 - httpcore.connection - DEBUG - close.complete
+2024-11-11 19:59:16,304 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,305 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,306 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,306 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,306 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,308 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,309 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,310 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,311 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,314 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,314 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,316 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,317 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,318 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,319 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,320 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,321 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,322 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,323 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 19:59:16,387 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/C3LK5ELvZwI/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBigSAAogDigIMCAAQARgXIBMofzAP&rs=AOn4CLAb8AkWRmtrHlCQLl2RMUWWywkJ-Q HTTP/11" 200 14412
+2024-11-11 19:59:16,390 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/2XTLhm6EcFw/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhyIEYoXDAP&rs=AOn4CLCWHto1J24_VKYcWS2EXpgjhEbb3w HTTP/11" 200 18026
+2024-11-11 19:59:16,390 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/4qQyUi4zfDs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtDNRjbnLMwrtDFGsZ5DO5gKMkVQ HTTP/11" 200 9548
+2024-11-11 19:59:16,392 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/g2lhOPjLEfk/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBn8FvnrBCeeQxi3ruWXGgkjy_gnw HTTP/11" 200 23854
+2024-11-11 19:59:16,394 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/yF-GvT8Clnk/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDcJKu6-qaNVPFW-XIMI5BO3ASlsA HTTP/11" 200 13102
+2024-11-11 19:59:16,395 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/MnMTK8EdsOc/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBjgSAApADigIMCAAQARhyIE4oPDAP&rs=AOn4CLBo3-l0ZPUwpYn1zhABKGwsypBu3g HTTP/11" 200 15676
+2024-11-11 19:59:16,400 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/yAKX51r7erw/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgvIDQofzAP&rs=AOn4CLBspcOi6eE_sFcLYVHspokMe-hKZw HTTP/11" 200 4526
+2024-11-11 19:59:16,403 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/n_V4zjCjkAY/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBOyThM3qRaoexQ4MEmFmwVaIOFCA HTTP/11" 200 9350
+2024-11-11 19:59:16,406 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/SLrkE6T_m5Y/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEsoOTAP&rs=AOn4CLAMd6f9Tk-3gzlj1rUO_paYPN0ZJQ HTTP/11" 200 14130
+2024-11-11 19:59:16,407 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/JBfAtRvW1Ao/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBYVmTFdt0_qJslbrPIZpyFcBJ8Og HTTP/11" 200 11216
+2024-11-11 19:59:16,424 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/EVC8r2b5mnI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7H8JogESdyGCAIz2N_KJP37jBkw HTTP/11" 200 3274
+2024-11-11 19:59:16,430 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/UkApbBABW9E/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhaIFooWjAP&rs=AOn4CLAMfq_Pl7h7O67u7bYjbF1PsD8NoA HTTP/11" 200 10358
+2024-11-11 19:59:16,431 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/NVuRbwnav_Y/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgKAAvABigIMCAAQARhiIGIoYjAP&rs=AOn4CLBC3eHm5Swo2Abz_D_44Qoc_8ykEg HTTP/11" 200 2600
+2024-11-11 19:59:16,436 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Ubao8M7Rjvk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAncBmY5Io_m1drprOTTC-G-BlA1w HTTP/11" 200 14510
+2024-11-11 19:59:16,439 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Vl9o8zGESe0/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCbxniV_kUxNACFeTMZ7N4jRxl51A HTTP/11" 200 8970
+2024-11-11 19:59:16,454 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/65tTDlQ0l6o/2.jpg HTTP/11" 200 2246
+2024-11-11 19:59:16,455 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/9BixXLxBpkQ/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEgoPzAP&rs=AOn4CLAhePfIuMripI3az-r7HieCIJaYCQ HTTP/11" 200 2360
+2024-11-11 19:59:16,478 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/LkN3Dl1WHDA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCWvfD40jSESnxXCituwLYDxVqcrA HTTP/11" 200 9540
+2024-11-11 19:59:16,491 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/I3PKikmU-Mk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBchXZUkDOdQv7YrBea7OjVs2xBrQ HTTP/11" 200 17570
+2024-11-11 20:01:14,294 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:01:14,678 - SmartQueue - INFO - Added new download: Spotify Bricked The Car Thing, So I Hacked Mine
+2024-11-11 20:01:14,680 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:01:15,072 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:01:15,072 - pytubefix.streams - DEBUG - downloading (61890641 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[C2F417] Spotify Bricked The Car Thing So I Hacked Mine\video_360p.mp4
+2024-11-11 20:01:15,680 - pytubefix.streams - DEBUG - download remaining: 52453457
+2024-11-11 20:01:16,358 - pytubefix.streams - DEBUG - download remaining: 43016273
+2024-11-11 20:01:16,781 - pytubefix.streams - DEBUG - download remaining: 33579089
+2024-11-11 20:01:17,241 - pytubefix.streams - DEBUG - download remaining: 24141905
+2024-11-11 20:01:17,846 - pytubefix.streams - DEBUG - download remaining: 14704721
+2024-11-11 20:01:18,400 - pytubefix.streams - DEBUG - download remaining: 5267537
+2024-11-11 20:01:18,644 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:01:18,645 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:01:18,645 - SmartQueue - INFO - Download completed: Spotify Bricked The Car Thing, So I Hacked Mine
+2024-11-11 20:04:43,820 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:04:44,090 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:04:44,177 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/vQVuGeoqyUc/sddefault.jpg?v=672cdddc HTTP/11" 200 41240
+2024-11-11 20:04:48,232 - SmartQueue - INFO - Added new download: Spotify Bricked The Car Thing, So I Hacked Mine
+2024-11-11 20:04:48,236 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:04:48,455 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:04:48,456 - pytubefix.streams - DEBUG - downloading (232941293 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[F6E860] Spotify Bricked The Car Thing So I Hacked Mine\video_1440p.mp4
+2024-11-11 20:04:48,879 - pytubefix.streams - DEBUG - download remaining: 223504109
+2024-11-11 20:04:49,325 - pytubefix.streams - DEBUG - download remaining: 214066925
+2024-11-11 20:04:49,955 - pytubefix.streams - DEBUG - download remaining: 204629741
+2024-11-11 20:04:50,336 - pytubefix.streams - DEBUG - download remaining: 195192557
+2024-11-11 20:04:50,719 - pytubefix.streams - DEBUG - download remaining: 185755373
+2024-11-11 20:04:51,163 - pytubefix.streams - DEBUG - download remaining: 176318189
+2024-11-11 20:04:51,645 - pytubefix.streams - DEBUG - download remaining: 166881005
+2024-11-11 20:04:52,078 - pytubefix.streams - DEBUG - download remaining: 157443821
+2024-11-11 20:04:52,492 - pytubefix.streams - DEBUG - download remaining: 148006637
+2024-11-11 20:04:52,885 - pytubefix.streams - DEBUG - download remaining: 138569453
+2024-11-11 20:04:53,271 - pytubefix.streams - DEBUG - download remaining: 129132269
+2024-11-11 20:04:53,659 - pytubefix.streams - DEBUG - download remaining: 119695085
+2024-11-11 20:04:54,130 - pytubefix.streams - DEBUG - download remaining: 110257901
+2024-11-11 20:04:54,564 - pytubefix.streams - DEBUG - download remaining: 100820717
+2024-11-11 20:04:55,009 - pytubefix.streams - DEBUG - download remaining: 91383533
+2024-11-11 20:04:55,416 - pytubefix.streams - DEBUG - download remaining: 81946349
+2024-11-11 20:04:55,801 - pytubefix.streams - DEBUG - download remaining: 72509165
+2024-11-11 20:04:56,209 - pytubefix.streams - DEBUG - download remaining: 63071981
+2024-11-11 20:04:56,582 - pytubefix.streams - DEBUG - download remaining: 53634797
+2024-11-11 20:04:56,951 - pytubefix.streams - DEBUG - download remaining: 44197613
+2024-11-11 20:04:57,356 - pytubefix.streams - DEBUG - download remaining: 34760429
+2024-11-11 20:04:57,749 - pytubefix.streams - DEBUG - download remaining: 25323245
+2024-11-11 20:04:58,114 - pytubefix.streams - DEBUG - download remaining: 15886061
+2024-11-11 20:04:58,602 - pytubefix.streams - DEBUG - download remaining: 6448877
+2024-11-11 20:04:58,878 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:04:58,879 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:04:58,880 - pytubefix.streams - DEBUG - downloading (20714716 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[F6E860] Spotify Bricked The Car Thing So I Hacked Mine\audio_128kbps.m4a
+2024-11-11 20:04:59,279 - pytubefix.streams - DEBUG - download remaining: 11277532
+2024-11-11 20:04:59,657 - pytubefix.streams - DEBUG - download remaining: 1840348
+2024-11-11 20:04:59,759 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:04:59,760 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:04:59,761 - SmartQueue - INFO - Download completed: Spotify Bricked The Car Thing, So I Hacked Mine
+2024-11-11 20:05:06,883 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 20:05:06,885 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-11 20:05:06,885 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\alfa\\PycharmProjects\\sytdl\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-11 20:05:06,894 - httpcore.connection - DEBUG - connect_tcp.started host='www.youtube.com' port=443 local_address=None timeout=None socket_options=None
+2024-11-11 20:05:06,909 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000027E2D32A550>
+2024-11-11 20:05:06,909 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000027E2D2BD400> server_hostname='www.youtube.com' timeout=None
+2024-11-11 20:05:06,959 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000027E2D328E90>
+2024-11-11 20:05:06,959 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-11 20:05:06,960 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-11-11 20:05:06,960 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-11 20:05:06,960 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-11-11 20:05:06,960 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-11 20:05:07,548 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Mon, 11 Nov 2024 17:05:08 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'Cache-Control', b'private'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-11-11 20:05:07,549 - httpx - INFO - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+2024-11-11 20:05:07,549 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-11 20:05:07,583 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-11-11 20:05:07,584 - httpcore.http11 - DEBUG - response_closed.started
+2024-11-11 20:05:07,584 - httpcore.http11 - DEBUG - response_closed.complete
+2024-11-11 20:05:07,584 - httpcore.connection - DEBUG - close.started
+2024-11-11 20:05:07,584 - httpcore.connection - DEBUG - close.complete
+2024-11-11 20:05:07,601 - root - ERROR - Error displaying search results: SearchResultWidget.__init__() missing 1 required positional argument: 'default_quality'
+2024-11-11 20:06:38,570 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 20:06:38,571 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-11 20:06:38,572 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\alfa\\PycharmProjects\\sytdl\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-11 20:06:38,578 - httpcore.connection - DEBUG - connect_tcp.started host='www.youtube.com' port=443 local_address=None timeout=None socket_options=None
+2024-11-11 20:06:38,596 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001902F094C50>
+2024-11-11 20:06:38,596 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001902F0712E0> server_hostname='www.youtube.com' timeout=None
+2024-11-11 20:06:38,642 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001902F094B90>
+2024-11-11 20:06:38,643 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-11 20:06:38,643 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-11-11 20:06:38,643 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-11 20:06:38,643 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-11-11 20:06:38,643 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-11 20:06:39,484 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Mon, 11 Nov 2024 17:06:40 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'Cache-Control', b'private'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-11-11 20:06:39,485 - httpx - INFO - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+2024-11-11 20:06:39,485 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-11 20:06:39,522 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-11-11 20:06:39,523 - httpcore.http11 - DEBUG - response_closed.started
+2024-11-11 20:06:39,523 - httpcore.http11 - DEBUG - response_closed.complete
+2024-11-11 20:06:39,523 - httpcore.connection - DEBUG - close.started
+2024-11-11 20:06:39,523 - httpcore.connection - DEBUG - close.complete
+2024-11-11 20:06:39,545 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,545 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,546 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,546 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,547 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,547 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,549 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,550 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,551 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,553 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,554 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,554 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,556 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,557 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,559 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,560 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,562 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,564 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,564 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:06:39,621 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/cZCm_i6YvAk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACqJuOJouJcrlME15kP2Dx0fmNag HTTP/11" 200 17606
+2024-11-11 20:06:39,633 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/pQsF3pzOc54/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDCiK10RIHqFs3WVAyQfeJjBBxOSg HTTP/11" 200 6168
+2024-11-11 20:06:39,634 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/qBoQzo98EpQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmyO2lm2j5dlIzpDWYwfxaPxerXA HTTP/11" 200 3944
+2024-11-11 20:06:39,635 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/_R3B2Xr8kwQ/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhdIF0oXTAP&rs=AOn4CLAJy7xS8lGowHeSB3KYgKhpO3xaIg HTTP/11" 200 11914
+2024-11-11 20:06:39,635 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/gbg27oT8Z9M/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgeAAtAFigIMCAAQARhAIFkocjAP&rs=AOn4CLDaCfO1BIszK1a9Jd_D98zMebfNCA HTTP/11" 200 18348
+2024-11-11 20:06:39,635 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/lPeJMoms_Ag/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIGEoQzAP&rs=AOn4CLDc07ZHQ55nGgQDavisWx2IxImYcg HTTP/11" 200 12510
+2024-11-11 20:06:39,636 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/MeRIAew8eXc/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARheIF4oXjAP&rs=AOn4CLD0BUXpmjtDhTeIreM-9fw7gDjczg HTTP/11" 200 12670
+2024-11-11 20:06:39,644 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/wIuBcb2T55Q/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IEooJTAP&rs=AOn4CLDXN6l0HrleiDqRAB6gxnPSnv6MAQ HTTP/11" 200 18626
+2024-11-11 20:06:39,646 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/1VYbKamjB-4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCOP4bkP_Z6Pw-_YnLw16CeaBND3g HTTP/11" 200 17606
+2024-11-11 20:06:39,646 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/LCjQsB0sDW8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD-dLi6nHSRQThBZkih0n3gdFlXqw HTTP/11" 200 17900
+2024-11-11 20:06:39,652 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Z1zPvvh3KxU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAiOB9Pj_ATjo3-qCr0OtCCfS4Y0g HTTP/11" 200 17606
+2024-11-11 20:06:39,653 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/AD8IVVV7ERo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBYzBkMzc6y2bW6rEHvWAwmdLO10A HTTP/11" 200 13546
+2024-11-11 20:06:39,654 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/wizAwUwdWsY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDImug02_NCMvPc5CFHk0EvYTU-XQ HTTP/11" 200 15160
+2024-11-11 20:06:39,654 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/-vyvNJAevIA/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB3AiAAtAFigIMCAAQARhVIE0oZTAP&rs=AOn4CLDuFkwVf6ZogiDWsp9DDhfWcckdyQ HTTP/11" 200 15292
+2024-11-11 20:06:39,660 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/r4ThHPMhmXQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPv4ji9Otc18v3q1LtRzSRSaPFww HTTP/11" 200 5214
+2024-11-11 20:06:39,661 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/_p7K2pnmy00/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFAoUTAP&rs=AOn4CLBh_UxRog8gaiR6OwjYBI0bsC2fWg HTTP/11" 200 11136
+2024-11-11 20:06:39,672 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/vpp1HXpDdIM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXDSbfB0J7Q4ehoVAOQ18edUcEyg HTTP/11" 200 8144
+2024-11-11 20:06:39,685 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/csJZ_9KOtNY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA57ts1QDgNHmVkccgpy3eujxnJ1w HTTP/11" 200 6168
+2024-11-11 20:06:39,703 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/HceMOGoGZWI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBnYbbTHe7S2HvzwYj2hnDc00EdOg HTTP/11" 200 10590
+2024-11-11 20:06:43,377 - SmartQueue - INFO - Added new download: Chamber Of Reflection
+2024-11-11 20:06:43,378 - SmartQueue - INFO - Added new download: For the First Time
+2024-11-11 20:06:43,378 - SmartQueue - INFO - Added new download: Mac DeMarco // "My Kind Of Woman"
+2024-11-11 20:06:43,380 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:06:43,380 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:06:43,390 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:06:43,603 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:06:43,604 - pytubefix.streams - DEBUG - downloading (3716380 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[586110] Mac DeMarco  My Kind Of Woman\video_720p.mp4
+2024-11-11 20:06:43,616 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:06:43,616 - pytubefix.streams - DEBUG - downloading (7420003 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[F2DC84] For the First Time\video_1080p.mp4
+2024-11-11 20:06:43,791 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:06:43,791 - pytubefix.streams - DEBUG - downloading (6255143 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[BEF569] Chamber Of Reflection\video_1080p.mp4
+2024-11-11 20:06:43,932 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:06:43,932 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:06:43,933 - pytubefix.streams - DEBUG - downloading (3193020 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[586110] Mac DeMarco  My Kind Of Woman\audio_128kbps.m4a
+2024-11-11 20:06:44,421 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:06:44,422 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:06:44,422 - SmartQueue - INFO - Download completed: Mac DeMarco // "My Kind Of Woman"
+2024-11-11 20:06:44,440 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:06:44,440 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:06:44,441 - pytubefix.streams - DEBUG - downloading (3752281 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[BEF569] Chamber Of Reflection\audio_128kbps.m4a
+2024-11-11 20:06:44,464 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:06:44,464 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:06:44,465 - pytubefix.streams - DEBUG - downloading (2952304 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[F2DC84] For the First Time\audio_128kbps.m4a
+2024-11-11 20:06:44,697 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:06:44,698 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:06:44,699 - SmartQueue - INFO - Download completed: Chamber Of Reflection
+2024-11-11 20:06:44,781 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:06:44,782 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:06:44,783 - SmartQueue - INFO - Download completed: For the First Time
+2024-11-11 20:07:33,453 - SmartQueue - INFO - Added new download: Chamber Of Reflection
+2024-11-11 20:07:33,454 - SmartQueue - INFO - Added new download: For the First Time
+2024-11-11 20:07:33,454 - SmartQueue - INFO - Added new download: Mac DeMarco // "My Kind Of Woman"
+2024-11-11 20:07:33,454 - SmartQueue - INFO - Added new download: Mac DeMarco // No Other Heart (Official Audio)
+2024-11-11 20:07:33,454 - SmartQueue - INFO - Added new download: Moonlight on the River
+2024-11-11 20:07:33,455 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:07:33,456 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:07:33,465 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:07:33,676 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:07:33,676 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:07:33,676 - pytubefix.streams - DEBUG - downloading (3716380 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[78CE3A] Mac DeMarco  My Kind Of Woman\video_720p.mp4
+2024-11-11 20:07:33,677 - pytubefix.streams - DEBUG - downloading (7420003 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[EACCAA] For the First Time\video_1080p.mp4
+2024-11-11 20:07:33,694 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:07:33,695 - pytubefix.streams - DEBUG - downloading (6255143 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[D85231] Chamber Of Reflection\video_1080p.mp4
+2024-11-11 20:07:34,122 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:07:34,123 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:07:34,124 - pytubefix.streams - DEBUG - downloading (3193020 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[78CE3A] Mac DeMarco  My Kind Of Woman\audio_128kbps.m4a
+2024-11-11 20:07:34,472 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:07:34,473 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:07:34,474 - pytubefix.streams - DEBUG - downloading (3752281 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[D85231] Chamber Of Reflection\audio_128kbps.m4a
+2024-11-11 20:07:34,531 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:07:34,532 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:07:34,532 - SmartQueue - INFO - Download completed: Mac DeMarco // "My Kind Of Woman"
+2024-11-11 20:07:34,534 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:07:34,693 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:07:34,694 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:07:34,695 - pytubefix.streams - DEBUG - downloading (2952304 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[EACCAA] For the First Time\audio_128kbps.m4a
+2024-11-11 20:07:34,752 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:07:34,753 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:07:34,756 - SmartQueue - INFO - Download completed: Chamber Of Reflection
+2024-11-11 20:07:34,759 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:07:34,789 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:07:34,790 - pytubefix.streams - DEBUG - downloading (10742437 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[CE02D4] Mac DeMarco  No Other Heart Official Audio\video_1080p.mp4
+2024-11-11 20:07:34,969 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:07:34,969 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:07:34,970 - SmartQueue - INFO - Download completed: For the First Time
+2024-11-11 20:07:34,997 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:07:34,997 - pytubefix.streams - DEBUG - downloading (36486068 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[B1479F] Moonlight on the River\video_1080p.mp4
+2024-11-11 20:07:35,677 - pytubefix.streams - DEBUG - download remaining: 1305253
+2024-11-11 20:07:35,693 - pytubefix.streams - DEBUG - download remaining: 27048884
+2024-11-11 20:07:35,789 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:07:35,790 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:07:35,790 - pytubefix.streams - DEBUG - downloading (2803374 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[CE02D4] Mac DeMarco  No Other Heart Official Audio\audio_128kbps.m4a
+2024-11-11 20:07:36,034 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:07:36,034 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:07:36,035 - SmartQueue - INFO - Download completed: Mac DeMarco // No Other Heart (Official Audio)
+2024-11-11 20:07:36,269 - pytubefix.streams - DEBUG - download remaining: 17611700
+2024-11-11 20:07:36,706 - pytubefix.streams - DEBUG - download remaining: 8174516
+2024-11-11 20:07:37,040 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:07:37,042 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:07:37,043 - pytubefix.streams - DEBUG - downloading (6840889 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[B1479F] Moonlight on the River\audio_128kbps.m4a
+2024-11-11 20:07:37,412 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:07:37,413 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:07:37,415 - SmartQueue - INFO - Download completed: Moonlight on the River
+2024-11-11 20:07:51,706 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 20:07:51,707 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-11 20:07:51,707 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\alfa\\PycharmProjects\\sytdl\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-11 20:07:51,714 - httpcore.connection - DEBUG - connect_tcp.started host='www.youtube.com' port=443 local_address=None timeout=None socket_options=None
+2024-11-11 20:07:51,730 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000190318FE9D0>
+2024-11-11 20:07:51,730 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001902F0F5400> server_hostname='www.youtube.com' timeout=None
+2024-11-11 20:07:51,784 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000019031990110>
+2024-11-11 20:07:51,784 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-11 20:07:51,785 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-11-11 20:07:51,785 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-11 20:07:51,785 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-11-11 20:07:51,785 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-11 20:07:52,351 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Mon, 11 Nov 2024 17:07:52 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'Cache-Control', b'private'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-11-11 20:07:52,351 - httpx - INFO - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+2024-11-11 20:07:52,351 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-11 20:07:52,390 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-11-11 20:07:52,390 - httpcore.http11 - DEBUG - response_closed.started
+2024-11-11 20:07:52,390 - httpcore.http11 - DEBUG - response_closed.complete
+2024-11-11 20:07:52,391 - httpcore.connection - DEBUG - close.started
+2024-11-11 20:07:52,391 - httpcore.connection - DEBUG - close.complete
+2024-11-11 20:07:52,402 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,403 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,404 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,405 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,407 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,408 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,409 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,411 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,412 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,413 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,415 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,416 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,417 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,418 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,419 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,420 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,422 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,423 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,425 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:07:52,476 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/-XqFjEXeiYE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATtIOZXJdeEtZZj0wWoaq2T-LvRw HTTP/11" 200 10314
+2024-11-11 20:07:52,495 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/dtVQkUZWYtI/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgTIE8ofzAP&rs=AOn4CLAtm6S20YnITd_6dCHMf1Tnx3x4zw HTTP/11" 200 12326
+2024-11-11 20:07:52,498 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/OR51OyjmxUU/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmKx5nPpBkqlt0FsgZpk2xAjrWHA HTTP/11" 200 26178
+2024-11-11 20:07:52,517 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/AiRd4E5SwmE/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IB0oLDAP&rs=AOn4CLCsg5JqzZ-ZgzSTn9LeMrJu1722Aw HTTP/11" 200 11654
+2024-11-11 20:07:52,524 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/04o00DJ3Y5w/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRYNo5nQRKTedFPVWjNYZ7yhanIw HTTP/11" 200 11168
+2024-11-11 20:07:52,527 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/AgXW-57UDMc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAROeFYw5efzpCEesczd1deVaFZ-Q HTTP/11" 200 5548
+2024-11-11 20:07:52,529 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/QZuQvyNZWkY/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFEoQTAP&rs=AOn4CLDsFLPmDiM39EPTdL49i_Plia871w HTTP/11" 200 5972
+2024-11-11 20:07:52,530 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/3cT_xTrwktY/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhDIFUocjAP&rs=AOn4CLBB4pY_JmkajPz_lKPX-hvVXkYnIg HTTP/11" 200 7976
+2024-11-11 20:07:52,530 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/CJkGGslFneE/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhXIF0oZTAP&rs=AOn4CLCRX4hQyheoKYMdxzs8seDfycV3WQ HTTP/11" 200 9580
+2024-11-11 20:07:52,536 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Bjvx14sJb0g/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IDkoLjAP&rs=AOn4CLC1Li4IG-7lJ-YSBukVBjbAM8ziag HTTP/11" 200 13636
+2024-11-11 20:07:52,538 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/EcrK6JRkuxs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAAsa4iRF_u2DWaLz-mCUzwlRqvpQ HTTP/11" 200 11514
+2024-11-11 20:07:52,544 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Ln-D9gsk_m4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAGdnA70lNlEI0_g1R5C0MihuQOwg HTTP/11" 200 13084
+2024-11-11 20:07:52,545 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/6jgBcsRCqI8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAX5NjL6DsE_yNj9UCC7L5NeG4UDw HTTP/11" 200 12446
+2024-11-11 20:07:52,546 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/RLqo708UjTw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqKAVVryC-jzpdVOg_ClhI3VBRIA HTTP/11" 200 13084
+2024-11-11 20:07:52,551 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/QDEkkCTTr-U/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhUIFgoZTAP&rs=AOn4CLA_X2tIH5kXXFTmqLnHkKitlpKEzA HTTP/11" 200 5678
+2024-11-11 20:07:52,551 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/5HgqPpjIH5c/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDS1kVeozCntm1rrIzOodwREvII2g HTTP/11" 200 11342
+2024-11-11 20:07:52,571 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/u8Ub6triQPE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAAvZDF-2aAtFACZwRTPKSqSIz9Ug HTTP/11" 200 14724
+2024-11-11 20:07:52,589 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/vFpRHw6lxUs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjGnzeElAmLJkRn3B_vQCo_Y3zAA HTTP/11" 200 12266
+2024-11-11 20:07:52,609 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/lhsq2BnfGuo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCS6cPyPip-JZfihMmh3ED7Fi0u4w HTTP/11" 200 15934
+2024-11-11 20:08:09,690 - SmartQueue - INFO - Added new download: berlioz - deep in it
+2024-11-11 20:08:09,690 - SmartQueue - INFO - Added new download: berlioz - jazz is for ordinary people
+2024-11-11 20:08:09,690 - SmartQueue - INFO - Added new download: berlioz - wash my sins away
+2024-11-11 20:08:09,690 - SmartQueue - INFO - Added new download: berlioz - jazz is for ordinary people - EP
+2024-11-11 20:08:09,691 - SmartQueue - INFO - Added new download: joycelyn's dance
+2024-11-11 20:08:09,691 - SmartQueue - INFO - Added new download: berlioz - nyc in 1940
+2024-11-11 20:08:09,691 - SmartQueue - INFO - Added new download: ode to rahsaan
+2024-11-11 20:08:09,691 - SmartQueue - INFO - Added new download: berlioz - miro
+2024-11-11 20:08:09,692 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:08:09,693 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:08:09,704 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:08:09,910 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:08:09,911 - pytubefix.streams - DEBUG - downloading (179847609 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[2D0CF0] berlioz - wash my sins away\video_2160p.mp4
+2024-11-11 20:08:09,937 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:08:09,938 - pytubefix.streams - DEBUG - downloading (112498364 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[BC9C02] berlioz - deep in it\video_2160p.mp4
+2024-11-11 20:08:09,978 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:08:09,979 - pytubefix.streams - DEBUG - downloading (82781327 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[9C8FD1] berlioz - jazz is for ordinary people\video_2160p.mp4
+2024-11-11 20:08:10,861 - pytubefix.streams - DEBUG - download remaining: 103061180
+2024-11-11 20:08:11,152 - pytubefix.streams - DEBUG - download remaining: 170410425
+2024-11-11 20:08:11,326 - pytubefix.streams - DEBUG - download remaining: 73344143
+2024-11-11 20:08:11,924 - pytubefix.streams - DEBUG - download remaining: 160973241
+2024-11-11 20:08:12,270 - pytubefix.streams - DEBUG - download remaining: 93623996
+2024-11-11 20:08:13,081 - pytubefix.streams - DEBUG - download remaining: 63906959
+2024-11-11 20:08:13,100 - pytubefix.streams - DEBUG - download remaining: 151536057
+2024-11-11 20:08:13,162 - pytubefix.streams - DEBUG - download remaining: 84186812
+2024-11-11 20:08:14,263 - pytubefix.streams - DEBUG - download remaining: 74749628
+2024-11-11 20:08:14,283 - pytubefix.streams - DEBUG - download remaining: 54469775
+2024-11-11 20:08:14,355 - pytubefix.streams - DEBUG - download remaining: 142098873
+2024-11-11 20:08:15,220 - pytubefix.streams - DEBUG - download remaining: 65312444
+2024-11-11 20:08:15,308 - pytubefix.streams - DEBUG - download remaining: 45032591
+2024-11-11 20:08:15,777 - pytubefix.streams - DEBUG - download remaining: 132661689
+2024-11-11 20:08:15,968 - pytubefix.streams - DEBUG - download remaining: 55875260
+2024-11-11 20:08:16,671 - pytubefix.streams - DEBUG - download remaining: 123224505
+2024-11-11 20:08:16,719 - pytubefix.streams - DEBUG - download remaining: 35595407
+2024-11-11 20:08:17,496 - pytubefix.streams - DEBUG - download remaining: 113787321
+2024-11-11 20:08:17,771 - pytubefix.streams - DEBUG - download remaining: 46438076
+2024-11-11 20:08:18,195 - pytubefix.streams - DEBUG - download remaining: 26158223
+2024-11-11 20:08:18,707 - pytubefix.streams - DEBUG - download remaining: 37000892
+2024-11-11 20:08:19,167 - pytubefix.streams - DEBUG - download remaining: 104350137
+2024-11-11 20:08:19,208 - pytubefix.streams - DEBUG - download remaining: 16721039
+2024-11-11 20:08:19,425 - pytubefix.streams - DEBUG - download remaining: 27563708
+2024-11-11 20:08:20,126 - pytubefix.streams - DEBUG - download remaining: 7283855
+2024-11-11 20:08:20,436 - pytubefix.streams - DEBUG - download remaining: 94912953
+2024-11-11 20:08:20,450 - pytubefix.streams - DEBUG - download remaining: 18126524
+2024-11-11 20:08:21,209 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:21,210 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:21,211 - pytubefix.streams - DEBUG - downloading (2653893 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[9C8FD1] berlioz - jazz is for ordinary people\audio_128kbps.m4a
+2024-11-11 20:08:21,392 - pytubefix.streams - DEBUG - download remaining: 8689340
+2024-11-11 20:08:21,513 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:21,514 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:21,514 - SmartQueue - INFO - Download completed: berlioz - jazz is for ordinary people
+2024-11-11 20:08:21,517 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:08:21,550 - pytubefix.streams - DEBUG - download remaining: 85475769
+2024-11-11 20:08:21,758 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:08:21,760 - pytubefix.streams - DEBUG - downloading (5344832 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[8007D6] joycelyns dance\video_1080p.mp4
+2024-11-11 20:08:22,302 - pytubefix.streams - DEBUG - download remaining: 76038585
+2024-11-11 20:08:22,514 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:22,516 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:22,517 - pytubefix.streams - DEBUG - downloading (3215844 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[8007D6] joycelyns dance\audio_128kbps.m4a
+2024-11-11 20:08:22,966 - pytubefix.streams - DEBUG - download remaining: 66601401
+2024-11-11 20:08:23,037 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:23,037 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:23,038 - SmartQueue - INFO - Download completed: joycelyn's dance
+2024-11-11 20:08:23,040 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:08:23,163 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:23,164 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:23,166 - pytubefix.streams - DEBUG - downloading (2507700 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[BC9C02] berlioz - deep in it\audio_128kbps.m4a
+2024-11-11 20:08:23,346 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:08:23,347 - pytubefix.streams - DEBUG - downloading (28155133 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[848BDF] berlioz - nyc in 1940\video_1080p.mp4
+2024-11-11 20:08:23,604 - pytubefix.streams - DEBUG - download remaining: 57164217
+2024-11-11 20:08:23,703 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:23,704 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:23,705 - SmartQueue - INFO - Download completed: berlioz - deep in it
+2024-11-11 20:08:23,707 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:08:23,947 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:08:23,948 - pytubefix.streams - DEBUG - downloading (7164783 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[87692B] ode to rahsaan\video_1080p.mp4
+2024-11-11 20:08:24,463 - pytubefix.streams - DEBUG - download remaining: 47727033
+2024-11-11 20:08:24,606 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:24,608 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:24,610 - pytubefix.streams - DEBUG - downloading (3407791 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[87692B] ode to rahsaan\audio_128kbps.m4a
+2024-11-11 20:08:24,666 - pytubefix.streams - DEBUG - download remaining: 18717949
+2024-11-11 20:08:25,307 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:25,308 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:25,309 - SmartQueue - INFO - Download completed: ode to rahsaan
+2024-11-11 20:08:25,311 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:08:25,478 - pytubefix.streams - DEBUG - download remaining: 38289849
+2024-11-11 20:08:25,532 - pytubefix.streams - DEBUG - download remaining: 9280765
+2024-11-11 20:08:25,549 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:08:25,550 - pytubefix.streams - DEBUG - downloading (216901593 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[9704B4] berlioz - miro\video_2160p.mp4
+2024-11-11 20:08:26,524 - pytubefix.streams - DEBUG - download remaining: 207464409
+2024-11-11 20:08:26,575 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:26,576 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:26,577 - pytubefix.streams - DEBUG - downloading (2527136 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[848BDF] berlioz - nyc in 1940\audio_128kbps.m4a
+2024-11-11 20:08:26,727 - pytubefix.streams - DEBUG - download remaining: 28852665
+2024-11-11 20:08:27,678 - pytubefix.streams - DEBUG - download remaining: 198027225
+2024-11-11 20:08:28,006 - pytubefix.streams - DEBUG - download remaining: 19415481
+2024-11-11 20:08:28,064 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:28,066 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:28,066 - SmartQueue - INFO - Download completed: berlioz - nyc in 1940
+2024-11-11 20:08:28,069 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:08:28,519 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:08:28,520 - pytubefix.streams - DEBUG - downloading (11380085 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[3BD671] berlioz - jazz is for ordinary people - EP\video_1080p.mp4
+2024-11-11 20:08:28,636 - pytubefix.streams - DEBUG - download remaining: 188590041
+2024-11-11 20:08:28,843 - pytubefix.streams - DEBUG - download remaining: 9978297
+2024-11-11 20:08:29,339 - pytubefix.streams - DEBUG - download remaining: 179152857
+2024-11-11 20:08:29,694 - pytubefix.streams - DEBUG - download remaining: 1942901
+2024-11-11 20:08:29,866 - pytubefix.streams - DEBUG - download remaining: 541113
+2024-11-11 20:08:29,948 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:29,949 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:29,950 - pytubefix.streams - DEBUG - downloading (14810266 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[3BD671] berlioz - jazz is for ordinary people - EP\audio_128kbps.m4a
+2024-11-11 20:08:30,019 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:30,020 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:30,021 - pytubefix.streams - DEBUG - downloading (3749343 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[2D0CF0] berlioz - wash my sins away\audio_128kbps.m4a
+2024-11-11 20:08:30,616 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:30,617 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:30,618 - SmartQueue - INFO - Download completed: berlioz - wash my sins away
+2024-11-11 20:08:31,388 - pytubefix.streams - DEBUG - download remaining: 169715673
+2024-11-11 20:08:31,563 - pytubefix.streams - DEBUG - download remaining: 5373082
+2024-11-11 20:08:31,937 - pytubefix.streams - DEBUG - download remaining: 160278489
+2024-11-11 20:08:32,129 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:32,130 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:32,131 - SmartQueue - INFO - Download completed: berlioz - jazz is for ordinary people - EP
+2024-11-11 20:08:32,572 - pytubefix.streams - DEBUG - download remaining: 150841305
+2024-11-11 20:08:33,120 - pytubefix.streams - DEBUG - download remaining: 141404121
+2024-11-11 20:08:33,778 - pytubefix.streams - DEBUG - download remaining: 131966937
+2024-11-11 20:08:34,364 - pytubefix.streams - DEBUG - download remaining: 122529753
+2024-11-11 20:08:34,865 - pytubefix.streams - DEBUG - download remaining: 113092569
+2024-11-11 20:08:35,530 - pytubefix.streams - DEBUG - download remaining: 103655385
+2024-11-11 20:08:36,026 - pytubefix.streams - DEBUG - download remaining: 94218201
+2024-11-11 20:08:36,638 - pytubefix.streams - DEBUG - download remaining: 84781017
+2024-11-11 20:08:37,350 - pytubefix.streams - DEBUG - download remaining: 75343833
+2024-11-11 20:08:37,986 - pytubefix.streams - DEBUG - download remaining: 65906649
+2024-11-11 20:08:38,783 - pytubefix.streams - DEBUG - download remaining: 56469465
+2024-11-11 20:08:39,424 - pytubefix.streams - DEBUG - download remaining: 47032281
+2024-11-11 20:08:40,169 - pytubefix.streams - DEBUG - download remaining: 37595097
+2024-11-11 20:08:41,093 - pytubefix.streams - DEBUG - download remaining: 28157913
+2024-11-11 20:08:41,766 - pytubefix.streams - DEBUG - download remaining: 18720729
+2024-11-11 20:08:42,483 - pytubefix.streams - DEBUG - download remaining: 9283545
+2024-11-11 20:08:43,175 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:43,176 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:43,177 - pytubefix.streams - DEBUG - downloading (3199404 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[9704B4] berlioz - miro\audio_128kbps.m4a
+2024-11-11 20:08:43,536 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:08:43,537 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:08:43,537 - SmartQueue - INFO - Download completed: berlioz - miro
+2024-11-11 20:09:03,247 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 20:09:03,251 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,252 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,253 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,255 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,256 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,260 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,261 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,263 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,264 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,266 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,268 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,269 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,270 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,272 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,274 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,275 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,276 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,277 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,279 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:09:03,329 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/-XqFjEXeiYE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATtIOZXJdeEtZZj0wWoaq2T-LvRw HTTP/11" 200 10314
+2024-11-11 20:09:03,333 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/QZuQvyNZWkY/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFEoQTAP&rs=AOn4CLDsFLPmDiM39EPTdL49i_Plia871w HTTP/11" 200 5972
+2024-11-11 20:09:03,335 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/AiRd4E5SwmE/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IB0oLDAP&rs=AOn4CLCsg5JqzZ-ZgzSTn9LeMrJu1722Aw HTTP/11" 200 11654
+2024-11-11 20:09:03,337 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/lhsq2BnfGuo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCS6cPyPip-JZfihMmh3ED7Fi0u4w HTTP/11" 200 15934
+2024-11-11 20:09:03,338 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/5HgqPpjIH5c/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDS1kVeozCntm1rrIzOodwREvII2g HTTP/11" 200 11342
+2024-11-11 20:09:03,346 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/QDEkkCTTr-U/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhUIFgoZTAP&rs=AOn4CLA_X2tIH5kXXFTmqLnHkKitlpKEzA HTTP/11" 200 5678
+2024-11-11 20:09:03,346 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/CJkGGslFneE/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhXIF0oZTAP&rs=AOn4CLCRX4hQyheoKYMdxzs8seDfycV3WQ HTTP/11" 200 9580
+2024-11-11 20:09:03,346 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/vFpRHw6lxUs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjGnzeElAmLJkRn3B_vQCo_Y3zAA HTTP/11" 200 12266
+2024-11-11 20:09:03,353 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/EcrK6JRkuxs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAAsa4iRF_u2DWaLz-mCUzwlRqvpQ HTTP/11" 200 11514
+2024-11-11 20:09:03,355 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Bjvx14sJb0g/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IDkoLjAP&rs=AOn4CLC1Li4IG-7lJ-YSBukVBjbAM8ziag HTTP/11" 200 13636
+2024-11-11 20:09:03,356 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/dtVQkUZWYtI/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgTIE8ofzAP&rs=AOn4CLAtm6S20YnITd_6dCHMf1Tnx3x4zw HTTP/11" 200 12326
+2024-11-11 20:09:03,361 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/6jgBcsRCqI8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAX5NjL6DsE_yNj9UCC7L5NeG4UDw HTTP/11" 200 12446
+2024-11-11 20:09:03,361 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/04o00DJ3Y5w/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRYNo5nQRKTedFPVWjNYZ7yhanIw HTTP/11" 200 11168
+2024-11-11 20:09:03,366 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/RLqo708UjTw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqKAVVryC-jzpdVOg_ClhI3VBRIA HTTP/11" 200 13084
+2024-11-11 20:09:03,370 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/OR51OyjmxUU/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmKx5nPpBkqlt0FsgZpk2xAjrWHA HTTP/11" 200 26178
+2024-11-11 20:09:03,373 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/AgXW-57UDMc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAROeFYw5efzpCEesczd1deVaFZ-Q HTTP/11" 200 5548
+2024-11-11 20:09:03,374 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/3cT_xTrwktY/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhDIFUocjAP&rs=AOn4CLBB4pY_JmkajPz_lKPX-hvVXkYnIg HTTP/11" 200 7976
+2024-11-11 20:09:03,384 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Ln-D9gsk_m4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAGdnA70lNlEI0_g1R5C0MihuQOwg HTTP/11" 200 13084
+2024-11-11 20:09:03,389 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/u8Ub6triQPE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAAvZDF-2aAtFACZwRTPKSqSIz9Ug HTTP/11" 200 14724
+2024-11-11 20:09:28,987 - SmartQueue - INFO - Added new download: berlioz - deep in it
+2024-11-11 20:09:28,987 - SmartQueue - INFO - Added new download: berlioz - jazz is for ordinary people
+2024-11-11 20:09:28,987 - SmartQueue - INFO - Added new download: berlioz - wash my sins away
+2024-11-11 20:09:28,987 - SmartQueue - INFO - Added new download: berlioz - nyc in 1940
+2024-11-11 20:09:28,987 - SmartQueue - INFO - Added new download: ode to rahsaan
+2024-11-11 20:09:28,987 - SmartQueue - INFO - Added new download: berlioz - miro
+2024-11-11 20:09:28,989 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:09:28,989 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:09:28,989 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:09:29,419 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:09:29,420 - pytubefix.streams - DEBUG - downloading (2507700 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[F28125] berlioz - deep in it\audio_128kbps.m4a
+2024-11-11 20:09:29,438 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:09:29,438 - pytubefix.streams - DEBUG - downloading (2653893 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[64B42D] berlioz - jazz is for ordinary people\audio_128kbps.m4a
+2024-11-11 20:09:29,438 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:09:29,446 - pytubefix.streams - DEBUG - downloading (3749343 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[092E57] berlioz - wash my sins away\audio_128kbps.m4a
+2024-11-11 20:09:29,696 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:09:29,697 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:09:29,697 - SmartQueue - INFO - Download completed: berlioz - jazz is for ordinary people
+2024-11-11 20:09:29,700 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:09:29,811 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:09:29,811 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:09:29,812 - SmartQueue - INFO - Download completed: berlioz - deep in it
+2024-11-11 20:09:29,813 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:09:29,895 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:09:29,895 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:09:29,896 - SmartQueue - INFO - Download completed: berlioz - wash my sins away
+2024-11-11 20:09:29,897 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:09:29,936 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:09:29,936 - pytubefix.streams - DEBUG - downloading (2527136 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[C6AAB9] berlioz - nyc in 1940\audio_128kbps.m4a
+2024-11-11 20:09:30,028 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:09:30,028 - pytubefix.streams - DEBUG - downloading (3407791 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[33A1F9] ode to rahsaan\audio_128kbps.m4a
+2024-11-11 20:09:30,140 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:09:30,141 - pytubefix.streams - DEBUG - downloading (3199404 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[256988] berlioz - miro\audio_128kbps.m4a
+2024-11-11 20:09:30,187 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:09:30,187 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:09:30,188 - SmartQueue - INFO - Download completed: berlioz - nyc in 1940
+2024-11-11 20:09:30,401 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:09:30,402 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:09:30,402 - SmartQueue - INFO - Download completed: ode to rahsaan
+2024-11-11 20:09:30,415 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:09:30,416 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:09:30,416 - SmartQueue - INFO - Download completed: berlioz - miro
+2024-11-11 20:10:08,101 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:10:08,384 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:10:08,473 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/vQVuGeoqyUc/sddefault.jpg?v=672cdddc HTTP/11" 200 41240
+2024-11-11 20:10:10,235 - SmartQueue - INFO - Added new download: Spotify Bricked The Car Thing, So I Hacked Mine
+2024-11-11 20:10:10,237 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:10:10,487 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:10:10,487 - pytubefix.streams - DEBUG - downloading (20714716 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[5CB40F] Spotify Bricked The Car Thing So I Hacked Mine\audio_128kbps.m4a
+2024-11-11 20:10:11,151 - pytubefix.streams - DEBUG - download remaining: 11277532
+2024-11-11 20:10:11,565 - pytubefix.streams - DEBUG - download remaining: 1840348
+2024-11-11 20:10:11,658 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:10:11,658 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:10:11,659 - SmartQueue - INFO - Download completed: Spotify Bricked The Car Thing, So I Hacked Mine
+2024-11-11 20:11:21,693 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:11:21,986 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:22,100 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Bjvx14sJb0g/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gOSguMA8=&rs=AOn4CLDb0p_FBTDzX2Wnwf2ByAhxHkjbjg HTTP/11" 200 30531
+2024-11-11 20:11:49,258 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 20:11:49,258 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-11 20:11:49,259 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\alfa\\PycharmProjects\\sytdl\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-11 20:11:49,265 - httpcore.connection - DEBUG - connect_tcp.started host='www.youtube.com' port=443 local_address=None timeout=None socket_options=None
+2024-11-11 20:11:49,280 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000190311B69D0>
+2024-11-11 20:11:49,280 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001902F071250> server_hostname='www.youtube.com' timeout=None
+2024-11-11 20:11:49,331 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000019031307690>
+2024-11-11 20:11:49,331 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-11 20:11:49,332 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-11-11 20:11:49,332 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-11 20:11:49,332 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-11-11 20:11:49,332 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-11 20:11:49,799 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Mon, 11 Nov 2024 17:11:50 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'Cache-Control', b'private'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-11-11 20:11:49,799 - httpx - INFO - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+2024-11-11 20:11:49,799 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-11 20:11:49,837 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-11-11 20:11:49,837 - httpcore.http11 - DEBUG - response_closed.started
+2024-11-11 20:11:49,837 - httpcore.http11 - DEBUG - response_closed.complete
+2024-11-11 20:11:49,837 - httpcore.connection - DEBUG - close.started
+2024-11-11 20:11:49,837 - httpcore.connection - DEBUG - close.complete
+2024-11-11 20:11:49,855 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,855 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,858 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,859 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,861 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,863 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,864 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,865 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,866 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,869 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,870 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,873 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,874 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,876 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,878 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,880 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,881 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,883 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,884 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:11:49,965 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/dtVQkUZWYtI/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgTIE8ofzAP&rs=AOn4CLAtm6S20YnITd_6dCHMf1Tnx3x4zw HTTP/11" 200 12326
+2024-11-11 20:11:49,973 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/CJkGGslFneE/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhXIF0oZTAP&rs=AOn4CLCRX4hQyheoKYMdxzs8seDfycV3WQ HTTP/11" 200 9580
+2024-11-11 20:11:49,974 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/AiRd4E5SwmE/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IB0oLDAP&rs=AOn4CLCsg5JqzZ-ZgzSTn9LeMrJu1722Aw HTTP/11" 200 11654
+2024-11-11 20:11:49,982 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/QZuQvyNZWkY/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFEoQTAP&rs=AOn4CLDsFLPmDiM39EPTdL49i_Plia871w HTTP/11" 200 5972
+2024-11-11 20:11:49,986 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Bjvx14sJb0g/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IDkoLjAP&rs=AOn4CLC1Li4IG-7lJ-YSBukVBjbAM8ziag HTTP/11" 200 13636
+2024-11-11 20:11:49,987 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Ln-D9gsk_m4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAGdnA70lNlEI0_g1R5C0MihuQOwg HTTP/11" 200 13084
+2024-11-11 20:11:49,989 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/04o00DJ3Y5w/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRYNo5nQRKTedFPVWjNYZ7yhanIw HTTP/11" 200 11168
+2024-11-11 20:11:49,997 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/C84TtIU96Ek/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCddkKzEEjfS_IMftGHH566RDRGcA HTTP/11" 200 14724
+2024-11-11 20:11:50,004 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/-XqFjEXeiYE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATtIOZXJdeEtZZj0wWoaq2T-LvRw HTTP/11" 200 10314
+2024-11-11 20:11:50,006 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/QDEkkCTTr-U/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhUIFgoZTAP&rs=AOn4CLA_X2tIH5kXXFTmqLnHkKitlpKEzA HTTP/11" 200 5678
+2024-11-11 20:11:50,012 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/RLqo708UjTw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqKAVVryC-jzpdVOg_ClhI3VBRIA HTTP/11" 200 13084
+2024-11-11 20:11:50,014 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/EcrK6JRkuxs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAAsa4iRF_u2DWaLz-mCUzwlRqvpQ HTTP/11" 200 11514
+2024-11-11 20:11:50,021 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/6jgBcsRCqI8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAX5NjL6DsE_yNj9UCC7L5NeG4UDw HTTP/11" 200 12446
+2024-11-11 20:11:50,022 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/v37D6hnNIWk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVO5kTyfHVPql2N4BGguRb2GYWLA HTTP/11" 200 14724
+2024-11-11 20:11:50,027 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/lhsq2BnfGuo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCS6cPyPip-JZfihMmh3ED7Fi0u4w HTTP/11" 200 15934
+2024-11-11 20:11:50,028 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/3cT_xTrwktY/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhDIFUocjAP&rs=AOn4CLBB4pY_JmkajPz_lKPX-hvVXkYnIg HTTP/11" 200 7976
+2024-11-11 20:11:50,031 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/zX3b_6gaWsg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCQId5_Aa8mNMM23OWk3qgrCb_LXA HTTP/11" 200 14724
+2024-11-11 20:11:50,040 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/u8Ub6triQPE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAAvZDF-2aAtFACZwRTPKSqSIz9Ug HTTP/11" 200 14724
+2024-11-11 20:11:50,044 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/vFpRHw6lxUs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjGnzeElAmLJkRn3B_vQCo_Y3zAA HTTP/11" 200 12266
+2024-11-11 20:12:28,282 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 20:12:28,283 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-11 20:12:28,283 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\alfa\\PycharmProjects\\sytdl\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-11 20:12:28,295 - httpcore.connection - DEBUG - connect_tcp.started host='www.youtube.com' port=443 local_address=None timeout=None socket_options=None
+2024-11-11 20:12:28,309 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000190312D0C50>
+2024-11-11 20:12:28,309 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000190034C1FD0> server_hostname='www.youtube.com' timeout=None
+2024-11-11 20:12:28,359 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000190312D1950>
+2024-11-11 20:12:28,359 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-11 20:12:28,359 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-11-11 20:12:28,359 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-11 20:12:28,359 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-11-11 20:12:28,359 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-11 20:12:29,042 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Mon, 11 Nov 2024 17:12:29 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'Cache-Control', b'private'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-11-11 20:12:29,042 - httpx - INFO - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+2024-11-11 20:12:29,042 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-11 20:12:29,103 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-11-11 20:12:29,103 - httpcore.http11 - DEBUG - response_closed.started
+2024-11-11 20:12:29,103 - httpcore.http11 - DEBUG - response_closed.complete
+2024-11-11 20:12:29,103 - httpcore.connection - DEBUG - close.started
+2024-11-11 20:12:29,103 - httpcore.connection - DEBUG - close.complete
+2024-11-11 20:12:29,114 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,115 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,116 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,117 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,118 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,119 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,120 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,121 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,122 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,123 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,124 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,126 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,126 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,128 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,129 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,130 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,131 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,132 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,133 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,134 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,136 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,137 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,138 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,139 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,140 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,141 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,143 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,145 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,145 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,147 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:29,194 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/9CMMRXHFcAk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8-msy-25wzR9Z8xQpkRb8J8ukWQ HTTP/11" 200 32176
+2024-11-11 20:12:29,203 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/nxMwPy-bffY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBiGVTTlce9tLj3uDWnwCM9nhW96w HTTP/11" 200 22528
+2024-11-11 20:12:29,204 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/hgaDZICOW50/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAlIJIwei2Gn3y2I_hrDJogrVkutA HTTP/11" 200 36020
+2024-11-11 20:12:29,204 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/ialgRAC-cns/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDri0O4e-eJHy2n-ZdiG5hmLMxO-A HTTP/11" 200 28616
+2024-11-11 20:12:29,210 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/HS2RCU8jEnM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQzWAbjxXf-vDjXklR65h8tENqKA HTTP/11" 200 12324
+2024-11-11 20:12:29,211 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/C1vp-ksvgys/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA32eqhfzvzQ-sr9gi8rbtjo9D7xw HTTP/11" 200 21496
+2024-11-11 20:12:29,224 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/ki8R9KM7OLg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC7VFkbpTCtgSwt_Po0UCbT8Wztkg HTTP/11" 200 23782
+2024-11-11 20:12:29,224 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/XwfG9FdhAc0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAl4uV8ZOsKuRdtidXyq4dMuLritA HTTP/11" 200 12646
+2024-11-11 20:12:29,235 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/B8XhfCSmTy4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA94UgRCxLIXlqxNfcqEk_MsZnoMQ HTTP/11" 200 21692
+2024-11-11 20:12:29,237 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/JFF95eAcoVU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCx_KhFjV9pGzqD-fDYuJmYd5NpMg HTTP/11" 200 8682
+2024-11-11 20:12:29,239 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/X955SmTm1rY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQhNzlO9mBjPxx-FORNRG8N9p5Lg HTTP/11" 200 26496
+2024-11-11 20:12:29,239 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/-C_hRVM0_po/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBohRLg8HiyubWCGNfKwfCj6LhdWA HTTP/11" 200 21528
+2024-11-11 20:12:29,247 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/djQD83zjDuk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBaN28F73XZyYqCbgIlOtk0pzvKNA HTTP/11" 200 16980
+2024-11-11 20:12:29,247 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/YTZ-GZPTND8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD2Cx67fg4IVygasmw_O85Zqxw_9w HTTP/11" 200 28004
+2024-11-11 20:12:29,248 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/905czCk919k/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCYIZkhbigKyC094BAsMa3T_Bhb-Q HTTP/11" 200 19592
+2024-11-11 20:12:29,248 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/4kzxy8eIjLI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjI-T9F3InvbNIZ3RmFxqv2QPRkQ HTTP/11" 200 19580
+2024-11-11 20:12:29,248 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/_4miMaWf3n4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD4IZ1JtaO2AC_xDL6ahkNwlAglvg HTTP/11" 200 25150
+2024-11-11 20:12:29,254 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/qpifYsrF-54/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDUIPFD5MWIYvIS7Eu-TJsXzGZazQ HTTP/11" 200 13252
+2024-11-11 20:12:29,257 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Br4MyYFm7Zw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFv9J9t1fpLH_jFRlVegPjX6gkqA HTTP/11" 200 9888
+2024-11-11 20:12:29,264 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/hoYWGXr8WFQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBM6Es-fb4jLllJLGzw7c1DFSGYqg HTTP/11" 200 24968
+2024-11-11 20:12:29,265 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/sbVmP1RzjwE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtaNpysaqtpGjOzR0ATN9b5Q1zcA HTTP/11" 200 14522
+2024-11-11 20:12:29,265 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/q05DjvoZ2Lw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6W6a_uG9NYBD9nFkIQMNZ1lwPGA HTTP/11" 200 13928
+2024-11-11 20:12:29,271 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/FzM1cYbL0GU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBnF2X7UAwh5TTnphXETTSg9RzqBA HTTP/11" 200 18822
+2024-11-11 20:12:29,277 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Z3nZQ3wnEMg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0GFSApRLxX1GzhlVG4u3lEBdoEg HTTP/11" 200 17684
+2024-11-11 20:12:29,277 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/iKIpJF77cHM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAkM_JERfWhU79AbdBlztm4HjO5oQ HTTP/11" 200 25612
+2024-11-11 20:12:29,282 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/UcPaezXHorY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDX9n3-L8Uf-xbrwII4ZV_QTbHCeQ HTTP/11" 200 14798
+2024-11-11 20:12:29,286 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/QSF7b_HL7Yc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAH4GkSIMZFL9HFfzBTAFnIxdlEdg HTTP/11" 200 25276
+2024-11-11 20:12:29,301 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/RaiW99Ak6fY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDLeI81lZ2n_CRxmbXnGMeF5fWxyA HTTP/11" 200 20846
+2024-11-11 20:12:29,304 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Dm-P-C5pvOk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7pYhSDg2Rz_OTySs12OEpgbPjnw HTTP/11" 200 20696
+2024-11-11 20:12:29,328 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/LVWoNx2wE6Q/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBulEKFUHY6JNp-2HulNNUWcrlIcw HTTP/11" 200 23692
+2024-11-11 20:12:37,138 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 20:12:37,142 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,143 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,146 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,147 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,149 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,150 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,151 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,153 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,154 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,155 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,156 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,158 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,160 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,161 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,162 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,163 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,166 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,167 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,168 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,169 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,170 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,172 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,173 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,174 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,175 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,176 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,177 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,179 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,180 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,181 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:37,218 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/X955SmTm1rY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQhNzlO9mBjPxx-FORNRG8N9p5Lg HTTP/11" 200 26496
+2024-11-11 20:12:37,223 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/9CMMRXHFcAk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8-msy-25wzR9Z8xQpkRb8J8ukWQ HTTP/11" 200 32176
+2024-11-11 20:12:37,223 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/hgaDZICOW50/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAlIJIwei2Gn3y2I_hrDJogrVkutA HTTP/11" 200 36020
+2024-11-11 20:12:37,225 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/B8XhfCSmTy4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA94UgRCxLIXlqxNfcqEk_MsZnoMQ HTTP/11" 200 21692
+2024-11-11 20:12:37,234 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/sbVmP1RzjwE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtaNpysaqtpGjOzR0ATN9b5Q1zcA HTTP/11" 200 14522
+2024-11-11 20:12:37,241 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/ialgRAC-cns/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDri0O4e-eJHy2n-ZdiG5hmLMxO-A HTTP/11" 200 28616
+2024-11-11 20:12:37,243 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/QSF7b_HL7Yc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAH4GkSIMZFL9HFfzBTAFnIxdlEdg HTTP/11" 200 25276
+2024-11-11 20:12:37,244 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/YTZ-GZPTND8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD2Cx67fg4IVygasmw_O85Zqxw_9w HTTP/11" 200 28004
+2024-11-11 20:12:37,258 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/XwfG9FdhAc0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAl4uV8ZOsKuRdtidXyq4dMuLritA HTTP/11" 200 12646
+2024-11-11 20:12:37,259 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/C1vp-ksvgys/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA32eqhfzvzQ-sr9gi8rbtjo9D7xw HTTP/11" 200 21496
+2024-11-11 20:12:37,264 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/djQD83zjDuk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBaN28F73XZyYqCbgIlOtk0pzvKNA HTTP/11" 200 16980
+2024-11-11 20:12:37,265 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/RaiW99Ak6fY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDLeI81lZ2n_CRxmbXnGMeF5fWxyA HTTP/11" 200 20846
+2024-11-11 20:12:37,268 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/HS2RCU8jEnM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQzWAbjxXf-vDjXklR65h8tENqKA HTTP/11" 200 12324
+2024-11-11 20:12:37,268 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/nxMwPy-bffY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBiGVTTlce9tLj3uDWnwCM9nhW96w HTTP/11" 200 22528
+2024-11-11 20:12:37,277 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/JFF95eAcoVU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCx_KhFjV9pGzqD-fDYuJmYd5NpMg HTTP/11" 200 8682
+2024-11-11 20:12:37,277 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/qpifYsrF-54/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDUIPFD5MWIYvIS7Eu-TJsXzGZazQ HTTP/11" 200 13252
+2024-11-11 20:12:37,278 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/q05DjvoZ2Lw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6W6a_uG9NYBD9nFkIQMNZ1lwPGA HTTP/11" 200 13928
+2024-11-11 20:12:37,286 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/hoYWGXr8WFQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBM6Es-fb4jLllJLGzw7c1DFSGYqg HTTP/11" 200 24968
+2024-11-11 20:12:37,286 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Br4MyYFm7Zw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFv9J9t1fpLH_jFRlVegPjX6gkqA HTTP/11" 200 9888
+2024-11-11 20:12:37,288 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/LVWoNx2wE6Q/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBulEKFUHY6JNp-2HulNNUWcrlIcw HTTP/11" 200 23692
+2024-11-11 20:12:37,289 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Dm-P-C5pvOk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7pYhSDg2Rz_OTySs12OEpgbPjnw HTTP/11" 200 20696
+2024-11-11 20:12:37,294 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/FzM1cYbL0GU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBnF2X7UAwh5TTnphXETTSg9RzqBA HTTP/11" 200 18822
+2024-11-11 20:12:37,296 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/-C_hRVM0_po/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBohRLg8HiyubWCGNfKwfCj6LhdWA HTTP/11" 200 21528
+2024-11-11 20:12:37,297 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/4kzxy8eIjLI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjI-T9F3InvbNIZ3RmFxqv2QPRkQ HTTP/11" 200 19580
+2024-11-11 20:12:37,298 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Z3nZQ3wnEMg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0GFSApRLxX1GzhlVG4u3lEBdoEg HTTP/11" 200 17684
+2024-11-11 20:12:37,305 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/iKIpJF77cHM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAkM_JERfWhU79AbdBlztm4HjO5oQ HTTP/11" 200 25612
+2024-11-11 20:12:37,305 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/UcPaezXHorY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDX9n3-L8Uf-xbrwII4ZV_QTbHCeQ HTTP/11" 200 14798
+2024-11-11 20:12:37,308 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/_4miMaWf3n4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD4IZ1JtaO2AC_xDL6ahkNwlAglvg HTTP/11" 200 25150
+2024-11-11 20:12:37,314 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/905czCk919k/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCYIZkhbigKyC094BAsMa3T_Bhb-Q HTTP/11" 200 19592
+2024-11-11 20:12:37,320 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/ki8R9KM7OLg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC7VFkbpTCtgSwt_Po0UCbT8Wztkg HTTP/11" 200 23782
+2024-11-11 20:12:38,866 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 20:12:38,868 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-11 20:12:38,868 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\alfa\\PycharmProjects\\sytdl\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-11 20:12:38,876 - httpcore.connection - DEBUG - connect_tcp.started host='www.youtube.com' port=443 local_address=None timeout=None socket_options=None
+2024-11-11 20:12:38,896 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001902F08A450>
+2024-11-11 20:12:38,896 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001902F073890> server_hostname='www.youtube.com' timeout=None
+2024-11-11 20:12:38,951 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000019031992AD0>
+2024-11-11 20:12:38,951 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-11 20:12:38,951 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-11-11 20:12:38,952 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-11 20:12:38,952 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-11-11 20:12:38,952 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-11 20:12:39,526 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Mon, 11 Nov 2024 17:12:40 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'Cache-Control', b'private'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-11-11 20:12:39,526 - httpx - INFO - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+2024-11-11 20:12:39,526 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-11 20:12:39,568 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-11-11 20:12:39,568 - httpcore.http11 - DEBUG - response_closed.started
+2024-11-11 20:12:39,568 - httpcore.http11 - DEBUG - response_closed.complete
+2024-11-11 20:12:39,569 - httpcore.connection - DEBUG - close.started
+2024-11-11 20:12:39,569 - httpcore.connection - DEBUG - close.complete
+2024-11-11 20:12:39,579 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,580 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,582 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,583 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,585 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,586 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,588 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,589 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,591 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,591 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,593 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,594 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,596 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,597 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,598 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,599 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,600 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,601 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,602 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,603 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,605 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,606 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,607 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,609 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:12:39,654 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/9keeDyFxzY4/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCzvfAl3rREKCq3JCXw5CuqPqKPrw HTTP/11" 200 31918
+2024-11-11 20:12:39,662 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/7WKioIRmaZA/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhPIGUoZTAP&rs=AOn4CLDnN8PPZ_JPBaQt_qVxsltqW7cU-g HTTP/11" 200 13890
+2024-11-11 20:12:39,726 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/BVeFdbtuIpE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjLHewGabw2P5Dx4DoexflAU34sw HTTP/11" 200 10468
+2024-11-11 20:12:39,746 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/ZrJlU2k5GG8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDGaXuIobfcmmKSvxRqyzFny53NyQ HTTP/11" 200 20558
+2024-11-11 20:12:39,753 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/RO-yJBh8nl0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByt2RsFmLXGWj8lTFDE3csUi-Z9A HTTP/11" 200 9010
+2024-11-11 20:12:39,758 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Ac6YGoO6BXc/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhpIGkoaTAP&rs=AOn4CLAhzPLo29Vz0lb8i_7_kCNEAh1cqA HTTP/11" 200 30832
+2024-11-11 20:12:39,759 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/9DntJpragJA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWCEBcq_r1LRYBfEncc2LqW8LkFw HTTP/11" 200 23144
+2024-11-11 20:12:39,766 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/1iyUdlndgBE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCvyaB2DeZWoU6qquWUfLfkFtXeLg HTTP/11" 200 22038
+2024-11-11 20:12:39,775 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/sY9jMZnubwM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFZ42cr61iyxhQJZ2muCMs08FZYQ HTTP/11" 200 26360
+2024-11-11 20:12:39,775 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/-5C8I9PUGr8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB8G72tzJG-nv8uaIidHSLFrCo1Cw HTTP/11" 200 38672
+2024-11-11 20:12:39,776 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/OvLmIfbknBo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAc42zBJYSCj_KhgrteXx4r1Tq-SQ HTTP/11" 200 21808
+2024-11-11 20:12:39,778 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/NXYMiO0V21I/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEgoLDAP&rs=AOn4CLDvWpaoL7mj1gM5HHUQfyjBt0SojQ HTTP/11" 200 20420
+2024-11-11 20:12:39,782 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/EYMhct3bujk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBajFD55iO6qs5z83GJS8Iw79s5ZA HTTP/11" 200 17782
+2024-11-11 20:12:39,783 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/qZUq2EnhqMo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqTwOyG8DUp2S69UvzA9Qk_o-3ZA HTTP/11" 200 29656
+2024-11-11 20:12:39,786 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/yXZKRKxz1BM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5k-EYg2y5GeQOOU-tmwrhfe9sxg HTTP/11" 200 20404
+2024-11-11 20:12:39,795 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/xG-bPRpLMDc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB0G4XtESmTJXryr0XKM27N0wBmNg HTTP/11" 200 28822
+2024-11-11 20:12:39,795 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/KcNz8U_LYPw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpjPtz7kV6GLY21GGJW47H9LFcgw HTTP/11" 200 10556
+2024-11-11 20:12:39,800 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/oqnfTo_wp4w/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnaSrNcKeUYHOTWuwMszFwIHczwA HTTP/11" 200 11994
+2024-11-11 20:12:39,803 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/3pD8Q2IyGY8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCROmILHu6oSApShyv9M-DwDjnvyA HTTP/11" 200 22272
+2024-11-11 20:12:39,806 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/b1ujooRbqg4/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhTIGUoSzAP&rs=AOn4CLC_KLXGv9I4xEvVefgVHHYbyMwG4w HTTP/11" 200 14136
+2024-11-11 20:12:39,811 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/q7DLEbQpJAk/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAoAPigIMCAAQARhHIE4oZTAP&rs=AOn4CLDWAU53xzTzrYuWzuprz8hTKtMYCA HTTP/11" 200 10344
+2024-11-11 20:12:39,855 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/2UOSu7iyyuI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwOEY3-0wi1DzPF_fRxDwPDdAoUA HTTP/11" 200 22162
+2024-11-11 20:12:39,861 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Dzh9W9RgKVo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCBDhhLjuPHgRVMnykr0z-oEpHlFQ HTTP/11" 200 19772
+2024-11-11 20:12:39,864 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/EA6klUKdDek/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAnR31EhgiyurbTU6JQLEZqoZdpRg HTTP/11" 200 16670
+2024-11-11 20:12:48,991 - SmartQueue - INFO - Added new download: 2024 FIRST Robotics Competition CRESCENDO presented by Haas Game Animation
+2024-11-11 20:12:48,992 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:12:49,347 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:12:49,348 - SmartQueue - WARNING - Retrying download (1/3): 2024 FIRST Robotics Competition CRESCENDO presented by Haas Game Animation
+2024-11-11 20:13:12,673 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 20:13:12,675 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-11 20:13:12,675 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\alfa\\PycharmProjects\\sytdl\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-11 20:13:12,681 - httpcore.connection - DEBUG - connect_tcp.started host='www.youtube.com' port=443 local_address=None timeout=None socket_options=None
+2024-11-11 20:13:12,702 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001BD61CC4C10>
+2024-11-11 20:13:12,702 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001BD61CA12E0> server_hostname='www.youtube.com' timeout=None
+2024-11-11 20:13:12,752 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001BD61CC4B50>
+2024-11-11 20:13:12,753 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-11 20:13:12,753 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-11-11 20:13:12,753 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-11 20:13:12,753 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-11-11 20:13:12,754 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-11 20:13:13,317 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Mon, 11 Nov 2024 17:13:13 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'Cache-Control', b'private'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-11-11 20:13:13,318 - httpx - INFO - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+2024-11-11 20:13:13,318 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-11 20:13:13,353 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-11-11 20:13:13,353 - httpcore.http11 - DEBUG - response_closed.started
+2024-11-11 20:13:13,353 - httpcore.http11 - DEBUG - response_closed.complete
+2024-11-11 20:13:13,354 - httpcore.connection - DEBUG - close.started
+2024-11-11 20:13:13,354 - httpcore.connection - DEBUG - close.complete
+2024-11-11 20:13:13,376 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,377 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,378 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,378 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,378 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,381 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,382 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,384 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,385 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,387 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,389 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,391 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,391 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,393 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,395 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,397 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,398 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,401 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,402 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,403 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,405 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,406 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,408 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,409 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:13:13,455 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/-5C8I9PUGr8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB8G72tzJG-nv8uaIidHSLFrCo1Cw HTTP/11" 200 38672
+2024-11-11 20:13:13,461 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/1iyUdlndgBE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCvyaB2DeZWoU6qquWUfLfkFtXeLg HTTP/11" 200 22038
+2024-11-11 20:13:13,462 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Ac6YGoO6BXc/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhpIGkoaTAP&rs=AOn4CLAhzPLo29Vz0lb8i_7_kCNEAh1cqA HTTP/11" 200 30832
+2024-11-11 20:13:13,463 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/ZrJlU2k5GG8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDGaXuIobfcmmKSvxRqyzFny53NyQ HTTP/11" 200 20558
+2024-11-11 20:13:13,463 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/NXYMiO0V21I/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIEgoLDAP&rs=AOn4CLDvWpaoL7mj1gM5HHUQfyjBt0SojQ HTTP/11" 200 20420
+2024-11-11 20:13:13,473 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/yXZKRKxz1BM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5k-EYg2y5GeQOOU-tmwrhfe9sxg HTTP/11" 200 20404
+2024-11-11 20:13:13,474 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/xG-bPRpLMDc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB0G4XtESmTJXryr0XKM27N0wBmNg HTTP/11" 200 28822
+2024-11-11 20:13:13,475 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/sY9jMZnubwM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFZ42cr61iyxhQJZ2muCMs08FZYQ HTTP/11" 200 26360
+2024-11-11 20:13:13,485 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/BVeFdbtuIpE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjLHewGabw2P5Dx4DoexflAU34sw HTTP/11" 200 10468
+2024-11-11 20:13:13,487 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/9DntJpragJA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWCEBcq_r1LRYBfEncc2LqW8LkFw HTTP/11" 200 23144
+2024-11-11 20:13:13,494 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/7WKioIRmaZA/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhPIGUoZTAP&rs=AOn4CLDnN8PPZ_JPBaQt_qVxsltqW7cU-g HTTP/11" 200 13890
+2024-11-11 20:13:13,494 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/KcNz8U_LYPw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpjPtz7kV6GLY21GGJW47H9LFcgw HTTP/11" 200 10556
+2024-11-11 20:13:13,497 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/9keeDyFxzY4/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCzvfAl3rREKCq3JCXw5CuqPqKPrw HTTP/11" 200 31918
+2024-11-11 20:13:13,500 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/OvLmIfbknBo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAc42zBJYSCj_KhgrteXx4r1Tq-SQ HTTP/11" 200 21808
+2024-11-11 20:13:13,504 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/EYMhct3bujk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBajFD55iO6qs5z83GJS8Iw79s5ZA HTTP/11" 200 17782
+2024-11-11 20:13:13,509 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/2UOSu7iyyuI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwOEY3-0wi1DzPF_fRxDwPDdAoUA HTTP/11" 200 22162
+2024-11-11 20:13:13,509 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/3pD8Q2IyGY8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCROmILHu6oSApShyv9M-DwDjnvyA HTTP/11" 200 22272
+2024-11-11 20:13:13,514 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/b1ujooRbqg4/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhTIGUoSzAP&rs=AOn4CLC_KLXGv9I4xEvVefgVHHYbyMwG4w HTTP/11" 200 14136
+2024-11-11 20:13:13,516 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Dzh9W9RgKVo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCBDhhLjuPHgRVMnykr0z-oEpHlFQ HTTP/11" 200 19772
+2024-11-11 20:13:13,518 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/qZUq2EnhqMo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqTwOyG8DUp2S69UvzA9Qk_o-3ZA HTTP/11" 200 29656
+2024-11-11 20:13:13,523 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/RO-yJBh8nl0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByt2RsFmLXGWj8lTFDE3csUi-Z9A HTTP/11" 200 9010
+2024-11-11 20:13:13,525 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/oqnfTo_wp4w/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnaSrNcKeUYHOTWuwMszFwIHczwA HTTP/11" 200 11994
+2024-11-11 20:13:13,591 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/OwpA1ytsU2k/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBI10H4zY_lMeu6nyJT5YnxsZ9KkA HTTP/11" 200 19444
+2024-11-11 20:13:13,617 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/vgFJMpJHXcg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB84oGP72QX9WJExf8xZnFXbEjivA HTTP/11" 200 17726
+2024-11-11 20:13:14,878 - SmartQueue - INFO - Added new download: 2024 FIRST Robotics Competition CRESCENDO presented by Haas Game Animation
+2024-11-11 20:13:14,882 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-11-11 20:13:15,194 - pytubefix.extract - DEBUG - applying descrambler
+2024-11-11 20:13:15,194 - pytubefix.streams - DEBUG - downloading (26872323 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[FBA538] 2024 FIRST Robotics Competition CRESCENDO presented by Haas Game Animation\video_1080p.mp4
+2024-11-11 20:13:15,702 - pytubefix.streams - DEBUG - download remaining: 17435139
+2024-11-11 20:13:16,113 - pytubefix.streams - DEBUG - download remaining: 7997955
+2024-11-11 20:13:16,469 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:13:16,470 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:13:16,471 - pytubefix.streams - DEBUG - downloading (2586092 total bytes) file to C:\Users\alfa\Desktop\SYTDL - Downloads\[FBA538] 2024 FIRST Robotics Competition CRESCENDO presented by Haas Game Animation\audio_128kbps.m4a
+2024-11-11 20:13:17,252 - pytubefix.streams - DEBUG - download remaining: 0
+2024-11-11 20:13:17,253 - pytubefix.streams - DEBUG - download finished
+2024-11-11 20:13:17,253 - SmartQueue - INFO - Download completed: 2024 FIRST Robotics Competition CRESCENDO presented by Haas Game Animation
+2024-11-11 20:14:30,642 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-11-11 20:14:30,643 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-11-11 20:14:30,644 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\alfa\\PycharmProjects\\sytdl\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-11-11 20:14:30,650 - httpcore.connection - DEBUG - connect_tcp.started host='www.youtube.com' port=443 local_address=None timeout=None socket_options=None
+2024-11-11 20:14:30,678 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028A0D164C50>
+2024-11-11 20:14:30,678 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000028A0D1412E0> server_hostname='www.youtube.com' timeout=None
+2024-11-11 20:14:30,737 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000028A0D164B90>
+2024-11-11 20:14:30,737 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-11-11 20:14:30,737 - httpcore.http11 - DEBUG - send_request_headers.complete
+2024-11-11 20:14:30,737 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-11-11 20:14:30,738 - httpcore.http11 - DEBUG - send_request_body.complete
+2024-11-11 20:14:30,738 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-11-11 20:14:31,389 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Mon, 11 Nov 2024 17:14:31 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'Cache-Control', b'private'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2024-11-11 20:14:31,389 - httpx - INFO - HTTP Request: POST https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 "HTTP/1.1 200 OK"
+2024-11-11 20:14:31,390 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-11-11 20:14:31,455 - httpcore.http11 - DEBUG - receive_response_body.complete
+2024-11-11 20:14:31,455 - httpcore.http11 - DEBUG - response_closed.started
+2024-11-11 20:14:31,455 - httpcore.http11 - DEBUG - response_closed.complete
+2024-11-11 20:14:31,455 - httpcore.connection - DEBUG - close.started
+2024-11-11 20:14:31,456 - httpcore.connection - DEBUG - close.complete
+2024-11-11 20:14:31,479 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,480 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,480 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,481 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,481 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,482 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,484 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,485 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,487 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,488 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,490 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,491 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,492 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,493 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,495 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,496 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,497 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i9.ytimg.com:443
+2024-11-11 20:14:31,499 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,499 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,500 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,502 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,503 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,505 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,506 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,509 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,510 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,512 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.ytimg.com:443
+2024-11-11 20:14:31,553 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/YQHsXMglC9A/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCYksb2AuTQJoxzdDBflr8nzAY82Q HTTP/11" 200 8776
+2024-11-11 20:14:31,558 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/tVlcKp3bWH8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBg7oFCrNrQTCtuggj99S1U4ufVBw HTTP/11" 200 19668
+2024-11-11 20:14:31,561 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/fx3479havuk/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBigiAAtAFigIMCAAQARh_IC0oEzAP&rs=AOn4CLDYcF2mvB2jXHVwi9XmoFs7U4LbHg HTTP/11" 200 4026
+2024-11-11 20:14:31,564 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/fN1Cyr0ZK9M/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCBJeOC_KZQPKkccvoC5J0LBfLaaQ HTTP/11" 200 17826
+2024-11-11 20:14:31,584 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Axx9IMdL4jc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3PizHU91ekTKdKeMy25xU2rxNSA HTTP/11" 200 15108
+2024-11-11 20:14:31,589 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/jK5FOyMhDOY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3cguZa4mCf8G4uJmb4-P5AM6tpQ HTTP/11" 200 13530
+2024-11-11 20:14:31,591 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/kK42LZqO0wA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBP2OGeDIX4AIDEEaETWIGeLHcmPQ HTTP/11" 200 22494
+2024-11-11 20:14:31,591 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/gghDRJVxFxU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTF8FBeKcuJ3TV_4IvyZk3wWAlZA HTTP/11" 200 19718
+2024-11-11 20:14:31,595 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/fazMSCZg-mw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB1uCMspoLIJRv8H_TqRxCVO3Lo6w HTTP/11" 200 10774
+2024-11-11 20:14:31,598 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/mHONNcZbwDY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByEleBOB5uGfSQEa2Z3UHKFZ6iWA HTTP/11" 200 7170
+2024-11-11 20:14:31,599 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/be12BC5pQLE/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLDIy5ro6svat2GXBTKB8yx7fDoEIw HTTP/11" 200 9976
+2024-11-11 20:14:31,599 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/tO4iu7Xh8Vg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2JuTMogHn3eAnGucSvpU3LfA-rg HTTP/11" 200 10732
+2024-11-11 20:14:31,602 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/qqLtPbEmbJs/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFYoSDAP&rs=AOn4CLC2eWH-i05J24qv6qmkIbhj92Az8A HTTP/11" 200 11614
+2024-11-11 20:14:31,613 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/bnVUHWCynig/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyNhXdRMKpFclaAAUHMHavcrHjUA HTTP/11" 200 3684
+2024-11-11 20:14:31,616 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/TLcQ6iljNkw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWHrBmaqApU3vjnQNi2oxvXc4CdQ HTTP/11" 200 16026
+2024-11-11 20:14:31,617 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/_0N8byj0Uy4/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhTIFUoZTAP&rs=AOn4CLD8iHrHbt-RdxbgW3wu7LX7Site9w HTTP/11" 200 10154
+2024-11-11 20:14:31,623 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/5kuBn0TI_8M/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgiAAvoMigIMCAAQARhfIGUoUDAP&rs=AOn4CLAbdUG_K1Hb6ckVMPI6FsRhEJJ7cA HTTP/11" 200 10448
+2024-11-11 20:14:31,626 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/pqDEwPi7vxg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCRKF122NHqNjLd89h8EvQYlRq1Sg HTTP/11" 200 18336
+2024-11-11 20:14:31,647 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/k5t0RrijpHg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZuKqkYXgz-VQBA8w_arR4PWgudw HTTP/11" 200 10380
+2024-11-11 20:14:31,648 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/uixkkqOQoD0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBA7Wb4b4l2hJAmVNMY2mMNybasQ HTTP/11" 200 9824
+2024-11-11 20:14:31,650 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/wgn49g767_0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAC-K1mL8_NNW8NT47SkqxlgE57xQ HTTP/11" 200 12342
+2024-11-11 20:14:31,653 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/vKTEUsctHiM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAC9fD_xNUfhe3ZbzLcIqBGoP7qwA HTTP/11" 200 16814
+2024-11-11 20:14:31,654 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/QkeehQ8D_VM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByIKkn2FPGVSSti8RiVyMqeZlhYA HTTP/11" 200 17690
+2024-11-11 20:14:31,662 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/_HppGw55GSM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDvZn8lcFNx6OxLEv62zTKb-9bRvA HTTP/11" 200 34236
+2024-11-11 20:14:31,668 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/60gOJYc93J8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC9Ym-GlhsqOmRJ2lKsdLp44RZbZQ HTTP/11" 200 6008
+2024-11-11 20:14:31,669 - urllib3.connectionpool - DEBUG - https://i.ytimg.com:443 "GET /vi/Omm-WQBDvcY/hq720_2.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBzgWAAoAKigIMCAAQARhyIE4oPzAP&rs=AOn4CLA0i2UF-3R1jhmH2R2XMYLDLUTFww HTTP/11" 200 3728
+2024-11-11 20:14:31,672 - urllib3.connectionpool - DEBUG - https://i9.ytimg.com:443 "GET /vi/gJ0RidAdHgs/hq720_custom_3.jpg?sqp=COj0yLkG-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCmkaxU22B1NJptsjkvYKnncHtC8w HTTP/11" 200 12746

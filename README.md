@@ -1,4 +1,5 @@
 # SYTDL - Simit's YouTube Downloader
+> This software was created in collaboration with the FRC Team #8153
 
 >[!NOTE]
 >Hello! We want to let you know that our application is currently compatible with Windows 10. While it hasn't been tested on Windows 11 yet, we kindly ask for your help in reporting any issues by creating an issue ticket. Your feedback is valuable to us, and we appreciate your support!

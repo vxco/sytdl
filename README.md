@@ -21,15 +21,6 @@
 - Introducing additional customization options for download speeds, concurrent downloads, etc.
 - Implementing an Audio and Video Merge feature to expedite the merging process, with initial tests showing a download duration increase of 650%, I scrapped merging for this release until I come up with a faster method.
 
-Thank you for your interest in SYTDL!
-
-> [!TIP]
-> When opening a binary file in Windows, it may be flagged as a threat. To proceed, click on "More Info", Then select "Run Anyway".
----
-> [!IMPORTANT]
-> Download is currently available in Release - Version 1.0.0
-
-
 
 > © 2024 FRC Team #8153, VXCO and VX Software. All rights reserved. This software was developed in collaboration between Tech4Peace (FRC Team #8153), VXCO, VX Software, and VX Hardware. 
 

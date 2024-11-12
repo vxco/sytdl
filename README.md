@@ -1,5 +1,5 @@
 # SYTDL - Simit's YouTube Downloader
-> This software was created in collaboration with the FRC Team #8153
+
 
 >[!NOTE]
 >Hello! We want to let you know that our application is currently compatible with Windows 10. While it hasn't been tested on Windows 11 yet, we kindly ask for your help in reporting any issues by creating an issue ticket. Your feedback is valuable to us, and we appreciate your support!
@@ -28,4 +28,8 @@ Thank you for your interest in SYTDL!
 ---
 > [!IMPORTANT]
 > Download is currently available in Release - Version 1.0.0
+
+
+
+> © 2024 FRC Team #8153, VXCO and VX Software. All rights reserved. This software was developed in collaboration between Tech4Peace (FRC Team #8153), VXCO, VX Software, and VX Hardware. 
 

@@ -26,4 +26,4 @@ Thank you for your interest in SYTDL!
 > When opening a binary file in Windows, it may be flagged as a threat. To proceed, click on "More Info", Then select "Run Anyway".
 
 >[!INFO]
-> Download is currently available in Release - Version 1.0.0
+>Download is currently available in Release - Version 1.0.0
